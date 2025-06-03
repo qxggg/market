@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.infrastructure.persistent.dao.IAwardDao">
+
+    <resultMap id="AwardMap" type="org.example.infrastructure.persistent.po.Award">
+        <id column="id" property="id"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="award_id" property="awardId"/>
+        <result column="award_key" property="awardKey"/>
+        <result column="award_config" property="awardConfig"/>
+        <result column="award_desc" property="awardDesc"/>
+    </resultMap>
+
+    <select id="queryList" resultMap="AwardMap">
+        SELECT
+            id,
+            create_time,
+            update_time,
+            award_id,
+            award_key,
+            award_config,
+            award_desc
+        FROM award
+    </select>
+</mapper>
