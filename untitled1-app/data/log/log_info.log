@@ -698,3 +698,15 @@ Caused by: java.net.UnknownHostException: Failed to resolve 'null' [A(1), AAAA(2
 25-06-05.01:30:14.261 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
 25-06-05.01:30:14.300 [main            ] INFO  ApiTest                - Started ApiTest in 2.089 seconds (JVM running for 2.505)
 25-06-05.01:30:14.566 [main            ] INFO  ApiTest                - 104
+25-06-05.02:24:34.920 [main            ] INFO  ApiTest                - Starting ApiTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 36050 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-05.02:24:34.921 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
+25-06-05.02:24:35.275 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-05.02:24:35.277 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-05.02:24:35.286 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+25-06-05.02:24:35.681 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-05.02:24:35.706 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-05.02:24:35.811 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-05.02:24:35.855 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-05.02:24:36.712 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-05.02:24:36.740 [main            ] INFO  ApiTest                - Started ApiTest in 1.997 seconds (JVM running for 2.392)
+25-06-05.02:24:37.005 [main            ] INFO  ApiTest                - 104
