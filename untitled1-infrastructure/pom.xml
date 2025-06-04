@@ -37,7 +37,6 @@
             <artifactId>untitled1-domain</artifactId>
         </dependency>
 
-
     </dependencies>
 
     <build>
