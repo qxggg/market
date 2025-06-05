@@ -36,7 +36,7 @@ public class ApiTest {
         map.put(6, 103);
         map.put(7, 104);
         log.info(redisService.getFromMap("qxg", 7).toString());
-        log.info(redisService.getValue("12"));
+        log.info(redisService.getValue("123"));
     }
     @Test
     public void testDatabase(){
