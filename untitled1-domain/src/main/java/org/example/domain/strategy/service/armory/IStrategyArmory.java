@@ -1,6 +1,8 @@
 package org.example.domain.strategy.service.armory;
 
+
 public interface IStrategyArmory {
 
-    void assembleLotteryStrategy(Long strategyId);
+    boolean assembleLotteryStrategy(Long strategyId);
+    public Integer getRandomAwardId(Long strategyId);
 }

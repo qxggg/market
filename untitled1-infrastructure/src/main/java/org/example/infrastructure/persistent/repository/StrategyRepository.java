@@ -8,12 +8,15 @@ import org.example.infrastructure.persistent.po.Award;
 import org.example.infrastructure.persistent.po.StrategyAward;
 import org.example.infrastructure.persistent.redis.IRedisService;
 import org.example.types.common.Constants;
+import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
+@Repository
 public class StrategyRepository implements IStrategyRepository {
 
     @Resource
@@ -43,4 +46,24 @@ public class StrategyRepository implements IStrategyRepository {
         redisService.setValue(cacheKey, strategyAwardEntities);
         return strategyAwardEntities;
     }
+
+    @Override
+    public void storeStrategyAwardSearchRateTable(Long strategyId, Integer rateRange, Map<Integer, Integer> strategyAwardSearchRateTable) {
+        // 1. 存储抽奖策略范围值，如10000，用于生成1000以内的随机数
+        redisService.setValue(Constants.RedisKey.STRATEGY_RATE_RANGE_KEY + strategyId, rateRange);
+        // 2. 存储概率查找表
+        Map<Integer, Integer> cacheRateTable = redisService.getMap(Constants.RedisKey.STRATEGY_RATE_TABLE_KEY + strategyId);
+        cacheRateTable.putAll(strategyAwardSearchRateTable);
+    }
+
+    @Override
+    public Integer getStrategyAwardAssemble(Long strategyId, Integer rateKey) {
+        return redisService.getFromMap(Constants.RedisKey.STRATEGY_RATE_TABLE_KEY + strategyId, rateKey);
+    }
+
+    @Override
+    public int getRateRange(Long strategyId) {
+        return redisService.getValue(Constants.RedisKey.STRATEGY_RATE_RANGE_KEY + strategyId);
+    }
+
 }

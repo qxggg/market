@@ -2,6 +2,7 @@ package org.example.test.infrastructure;
 
 import lombok.extern.slf4j.Slf4j;
 import org.example.infrastructure.persistent.dao.IAwardDao;
+import org.example.infrastructure.persistent.dao.IStrategyAwardDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +17,17 @@ public class IAwardDtoTest {
     @Autowired
     IAwardDao awardDao;
 
+    @Autowired
+    IStrategyAwardDao strategyAwardDao;
+
     @Test
     public void test() {
         System.out.println(awardDao.queryList());
+    }
+
+
+    @Test
+    public void test2() {
+        System.out.println(strategyAwardDao.queryStrategyAwardListByStrategyId(100001L));
     }
 }
