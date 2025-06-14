@@ -9,8 +9,10 @@ import io.netty.buffer.ByteBufOutputStream;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.client.codec.BaseCodec;
+import org.redisson.client.codec.StringCodec;
 import org.redisson.client.protocol.Decoder;
 import org.redisson.client.protocol.Encoder;
+import org.redisson.codec.JsonJacksonCodec;
 import org.redisson.config.Config;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -18,6 +20,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Redis 客户端，使用 Redisson <a href="https://github.com/redisson/redisson">Redisson</a>
@@ -32,7 +35,7 @@ public class RedisClientConfig {
     public RedissonClient redissonClient(ConfigurableApplicationContext applicationContext, RedisClientConfigProperties properties) {
         Config config = new Config();
         // 根据需要可以设定编解码器；https://github.com/redisson/redisson/wiki/4.-%E6%95%B0%E6%8D%AE%E5%BA%8F%E5%88%97%E5%8C%96
-        // config.setCodec(new RedisCodec());
+         config.setCodec(new JsonJacksonCodec());
 
         config.useSingleServer()
                 .setAddress("redis://" + properties.getHost() + ":" + properties.getPort())
@@ -45,8 +48,8 @@ public class RedisClientConfig {
                 .setRetryInterval(properties.getRetryInterval())
                 .setPingConnectionInterval(properties.getPingInterval())
                 .setKeepAlive(properties.isKeepAlive())
-        ;
 
+        ;
         return Redisson.create(config);
     }
 

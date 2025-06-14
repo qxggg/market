@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.infrastructure.persistent.dao.IStrategyDao">
+
+    <resultMap id="StragegyAwardMap" type="org.example.infrastructure.persistent.po.Strategy">
+        <id column="id" property="id"/>
+        <result column="id" property="id"/>
+        <result column="strategy_id" property="strategyId"/>
+        <result column="rule_models" property="ruleModels"/>
+        <result column="strategy_desc" property="strategyDesc"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <select id="queryStrategyById" parameterType="java.lang.Long" resultMap="StragegyAwardMap">
+        select strategy_id, rule_models, strategy_desc
+        from strategy
+        where strategy_id = #{strategy_id}
+    </select>
+
+</mapper>
+
+
+
+        <!--        private long strategy_id;-->
+        <!--        private int award_id;-->
+        <!--        private String award_title;-->
+        <!--        private String award_subtitle;-->
+        <!--        private int award_count;-->
+        <!--        private int award_count_surplus;-->

@@ -2,24 +2,21 @@ package org.example.infrastructure.persistent.po;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import java.math.BigDecimal;
 import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class StrategyAward {
-    long id;
-    long strategyId;
+public class StrategyRule {
+    Long strategyId;
+    int id;
     int awardId;
-    String awardTitle;
-    String awardSubtitle;
-    int awardCount;
-    int awardCountSurplus;
-    BigDecimal awardRate;
-    String ruleModels;
-    int sort;
+    int ruleType;
+    String ruleModel;
+    String ruleValue;
+    String ruleDesc;
     Date createTime;
     Date updateTime;
 }

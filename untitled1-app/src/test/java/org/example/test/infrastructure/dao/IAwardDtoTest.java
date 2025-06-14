@@ -1,4 +1,4 @@
-package org.example.test.infrastructure;
+package org.example.test.infrastructure.dao;
 
 import lombok.extern.slf4j.Slf4j;
 import org.example.infrastructure.persistent.dao.IAwardDao;

@@ -615,8 +615,8 @@ Caused by: com.mysql.cj.exceptions.CJException: Unknown database 'xfg_frame_arch
 25-06-04.06:39:01.761 [main            ] INFO  IAwardDtoTest          - The following 1 profile is active: "dev"
 25-06-04.06:39:02.045 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[org.example]' package. Please check your configuration.
 25-06-04.06:39:02.595 [main            ] INFO  IAwardDtoTest          - Started IAwardDtoTest in 1.005 seconds (JVM running for 1.429)
-25-06-04.06:39:02.612 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e800aaa] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@35267fd4]
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.example.test.infrastructure.IAwardDtoTest': Unsatisfied dependency expressed through field 'awardDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.infrastructure.persistent.dao.IAwardDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+25-06-04.06:39:02.612 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e800aaa] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@35267fd4]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.example.test.infrastructure.dao.IAwardDtoTest': Unsatisfied dependency expressed through field 'awardDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.infrastructure.persistent.dao.IAwardDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
@@ -660,8 +660,8 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 25-06-04.06:46:34.408 [main            ] INFO  IAwardDtoTest          - The following 1 profile is active: "dev"
 25-06-04.06:46:34.675 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[org.example]' package. Please check your configuration.
 25-06-04.06:46:35.313 [main            ] INFO  IAwardDtoTest          - Started IAwardDtoTest in 1.09 seconds (JVM running for 1.512)
-25-06-04.06:46:35.331 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e800aaa] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@35267fd4]
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.example.test.infrastructure.IAwardDtoTest': Unsatisfied dependency expressed through field 'awardDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.infrastructure.persistent.dao.IAwardDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+25-06-04.06:46:35.331 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e800aaa] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@35267fd4]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.example.test.infrastructure.dao.IAwardDtoTest': Unsatisfied dependency expressed through field 'awardDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.infrastructure.persistent.dao.IAwardDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
@@ -823,7 +823,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: org.example.infr
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 67 common frames omitted
-25-06-04.06:53:22.054 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@188cbcde]
+25-06-04.06:53:22.054 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@188cbcde]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -1014,7 +1014,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: org.example.infr
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 67 common frames omitted
-25-06-04.06:57:06.882 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@7b6e5c12]
+25-06-04.06:57:06.882 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@7b6e5c12]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -1205,7 +1205,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: org.example.infr
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 67 common frames omitted
-25-06-04.07:01:15.617 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@1c7f96b1]
+25-06-04.07:01:15.617 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@1c7f96b1]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -1396,7 +1396,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: org.example.infr
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 67 common frames omitted
-25-06-04.07:02:45.961 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@397ef2]
+25-06-04.07:02:45.961 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@397ef2]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -1587,7 +1587,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: org.example.infr
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 67 common frames omitted
-25-06-04.07:11:32.557 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@188cbcde]
+25-06-04.07:11:32.557 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@188cbcde]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -1747,7 +1747,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-04.19:33:42.577 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@217ed35e] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@6ff37443]
+25-06-04.19:33:42.577 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@217ed35e] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@6ff37443]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -1866,7 +1866,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-04.19:35:25.922 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@5dc3fcb7]
+25-06-04.19:35:25.922 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@5dc3fcb7]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -1985,7 +1985,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-04.19:36:11.726 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@2ca6546f]
+25-06-04.19:36:11.726 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@2ca6546f]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -2104,7 +2104,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-04.19:41:30.477 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@2ca6546f]
+25-06-04.19:41:30.477 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@2ca6546f]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -2223,7 +2223,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-04.19:42:42.569 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@368d5c00]
+25-06-04.19:42:42.569 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@368d5c00]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -2342,7 +2342,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-04.19:44:37.965 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@2ca6546f]
+25-06-04.19:44:37.965 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@2ca6546f]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -2461,7 +2461,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-04.19:48:29.648 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@368d5c00]
+25-06-04.19:48:29.648 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@368d5c00]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -2580,7 +2580,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-04.19:49:36.579 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@2ca6546f]
+25-06-04.19:49:36.579 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@2ca6546f]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)

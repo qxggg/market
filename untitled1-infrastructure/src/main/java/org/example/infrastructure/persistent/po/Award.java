@@ -1,12 +1,10 @@
 package org.example.infrastructure.persistent.po;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.Date;
-
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 public class Award {
     Long id;

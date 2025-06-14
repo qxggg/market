@@ -57,7 +57,7 @@ Caused by: java.lang.ClassNotFoundException: org.redisson.api.RQueue
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 46 common frames omitted
-25-06-05.00:35:23.421 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.IAwardDtoTest@2ca6546f]
+25-06-05.00:35:23.421 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@f5958c9] to prepare test instance [org.example.test.infrastructure.dao.IAwardDtoTest@2ca6546f]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
