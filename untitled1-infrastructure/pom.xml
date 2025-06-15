@@ -18,11 +18,25 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!-- 集成redis依赖  -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <version>3.4.0</version>
+        </dependency>
         <!-- 系统模块 -->
+        <!-- https://mvnrepository.com/artifact/org.redisson/redisson -->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>3.24.3</version> <!-- 或者最新版 -->
+        </dependency>
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>untitled1-domain</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>
