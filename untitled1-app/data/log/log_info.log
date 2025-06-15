@@ -444,3 +444,777 @@ Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot
 25-06-15.03:31:31.368 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
 25-06-15.03:31:32.036 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
 25-06-15.03:31:32.088 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.11:02:08.792 [main            ] INFO  TestStragegyArmory     - Starting TestStragegyArmory using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 86399 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.11:02:08.793 [main            ] INFO  TestStragegyArmory     - The following 1 profile is active: "dev"
+25-06-15.11:02:09.170 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.11:02:09.172 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.11:02:09.184 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.11:02:09.828 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.11:02:09.843 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.11:02:09.951 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.11:02:09.999 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.11:02:10.645 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.11:02:10.674 [main            ] INFO  TestStragegyArmory     - Started TestStragegyArmory in 2.045 seconds (JVM running for 2.421)
+25-06-15.11:02:15.820 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.11:02:15.974 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.11:02:16.619 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.11:02:16.647 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.19:10:16.444 [main            ] INFO  IStrategyRuleDaoTest   - Starting IStrategyRuleDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 99558 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.19:10:16.444 [main            ] INFO  IStrategyRuleDaoTest   - The following 1 profile is active: "dev"
+25-06-15.19:10:16.856 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.19:10:16.858 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.19:10:16.871 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.19:10:17.490 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.19:10:17.504 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.19:10:17.593 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:10:17.634 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:10:18.333 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.19:10:18.363 [main            ] INFO  IStrategyRuleDaoTest   - Started IStrategyRuleDaoTest in 2.095 seconds (JVM running for 2.503)
+25-06-15.19:10:18.548 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.19:10:18.704 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.19:10:18.769 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.19:10:18.775 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.19:11:38.972 [main            ] INFO  IStrategyRuleDaoTest   - Starting IStrategyRuleDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 99603 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.19:11:38.973 [main            ] INFO  IStrategyRuleDaoTest   - The following 1 profile is active: "dev"
+25-06-15.19:11:39.397 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.19:11:39.399 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.19:11:39.412 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-06-15.19:11:40.029 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.19:11:40.042 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.19:11:40.157 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:11:40.200 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:11:40.900 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.19:11:40.929 [main            ] INFO  IStrategyRuleDaoTest   - Started IStrategyRuleDaoTest in 2.133 seconds (JVM running for 2.587)
+25-06-15.19:11:41.110 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.19:11:41.266 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.19:11:41.317 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.19:11:41.320 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.19:37:40.207 [main            ] INFO  LogicFactoryBeanTest   - Starting LogicFactoryBeanTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 704 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.19:37:40.208 [main            ] INFO  LogicFactoryBeanTest   - The following 1 profile is active: "dev"
+25-06-15.19:37:40.631 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.19:37:40.632 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.19:37:40.648 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.19:37:41.260 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.19:37:41.273 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.19:37:41.381 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:37:41.424 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:37:42.142 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.19:37:42.169 [main            ] INFO  LogicFactoryBeanTest   - Started LogicFactoryBeanTest in 2.183 seconds (JVM running for 2.588)
+25-06-15.19:38:36.613 [main            ] INFO  LogicFactoryBeanTest   - Starting LogicFactoryBeanTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 738 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.19:38:36.614 [main            ] INFO  LogicFactoryBeanTest   - The following 1 profile is active: "dev"
+25-06-15.19:38:37.015 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.19:38:37.016 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.19:38:37.030 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-06-15.19:38:37.670 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.19:38:37.684 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.19:38:37.802 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:38:37.847 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:38:38.571 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.19:38:38.599 [main            ] INFO  LogicFactoryBeanTest   - Started LogicFactoryBeanTest in 2.158 seconds (JVM running for 2.536)
+25-06-15.19:45:20.254 [main            ] INFO  LogicFactoryBeanTest   - Starting LogicFactoryBeanTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 962 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.19:45:20.255 [main            ] INFO  LogicFactoryBeanTest   - The following 1 profile is active: "dev"
+25-06-15.19:45:20.708 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.19:45:20.710 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.19:45:20.725 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-06-15.19:45:21.421 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.19:45:21.435 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.19:45:21.555 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:45:21.599 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:45:22.388 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.19:45:22.423 [main            ] INFO  LogicFactoryBeanTest   - Started LogicFactoryBeanTest in 2.363 seconds (JVM running for 2.775)
+25-06-15.19:52:30.039 [main            ] INFO  LogicFactoryBeanTest   - Starting LogicFactoryBeanTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1191 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.19:52:30.040 [main            ] INFO  LogicFactoryBeanTest   - The following 1 profile is active: "dev"
+25-06-15.19:52:30.505 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.19:52:30.507 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.19:52:30.520 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.19:52:31.131 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.19:52:31.143 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.19:52:31.249 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:52:31.291 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:52:31.946 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.19:52:31.973 [main            ] INFO  LogicFactoryBeanTest   - Started LogicFactoryBeanTest in 2.115 seconds (JVM running for 2.487)
+25-06-15.19:53:16.890 [main            ] INFO  LogicFactoryBeanTest   - Starting LogicFactoryBeanTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1226 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.19:53:16.891 [main            ] INFO  LogicFactoryBeanTest   - The following 1 profile is active: "dev"
+25-06-15.19:53:17.333 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.19:53:17.335 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.19:53:17.355 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-06-15.19:53:17.994 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.19:53:18.008 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.19:53:18.107 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:53:18.146 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.19:53:18.846 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.19:53:18.878 [main            ] INFO  LogicFactoryBeanTest   - Started LogicFactoryBeanTest in 2.165 seconds (JVM running for 2.534)
+25-06-15.20:09:31.588 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1736 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:09:31.588 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:09:32.047 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:09:32.048 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:09:32.061 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:09:32.691 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:09:32.704 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:09:32.816 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:09:32.858 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:09:33.518 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:09:33.548 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.143 seconds (JVM running for 2.515)
+25-06-15.20:09:33.733 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:10:04.493 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1763 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:10:04.494 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:10:04.893 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:10:04.895 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:10:04.907 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:10:05.548 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:10:05.563 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:10:05.664 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:10:05.705 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:10:06.363 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:10:06.391 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.061 seconds (JVM running for 2.457)
+25-06-15.20:10:06.566 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:10:52.527 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1792 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:10:52.527 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:10:52.916 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:10:52.918 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:10:52.929 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+25-06-15.20:10:53.552 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:10:53.566 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:10:53.671 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:10:53.712 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:10:54.397 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:10:54.422 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.057 seconds (JVM running for 2.42)
+25-06-15.20:10:54.594 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:11:30.556 [main            ] INFO  IStrategyRuleDaoTest   - Starting IStrategyRuleDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1827 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:11:30.557 [main            ] INFO  IStrategyRuleDaoTest   - The following 1 profile is active: "dev"
+25-06-15.20:11:30.972 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:11:30.973 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:11:30.986 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:11:31.582 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:11:31.595 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:11:31.702 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:11:31.746 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:11:32.417 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:11:32.445 [main            ] INFO  IStrategyRuleDaoTest   - Started IStrategyRuleDaoTest in 2.063 seconds (JVM running for 2.489)
+25-06-15.20:11:32.635 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:11:32.785 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:11:32.839 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:11:32.847 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:11:54.156 [main            ] INFO  IStrategyRuleDaoTest   - Starting IStrategyRuleDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1845 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:11:54.157 [main            ] INFO  IStrategyRuleDaoTest   - The following 1 profile is active: "dev"
+25-06-15.20:11:54.544 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:11:54.546 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:11:54.558 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:11:55.173 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:11:55.184 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:11:55.283 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:11:55.323 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:11:55.977 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:11:56.004 [main            ] INFO  IStrategyRuleDaoTest   - Started IStrategyRuleDaoTest in 2.014 seconds (JVM running for 2.37)
+25-06-15.20:11:56.186 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:11:56.331 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:11:56.389 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:11:56.393 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:14:08.096 [main            ] INFO  IStrategyRuleDaoTest   - Starting IStrategyRuleDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1922 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:14:08.096 [main            ] INFO  IStrategyRuleDaoTest   - The following 1 profile is active: "dev"
+25-06-15.20:14:08.484 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:14:08.486 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:14:08.498 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:14:09.098 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:14:09.110 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:14:09.222 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:14:09.265 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:14:09.928 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:14:09.954 [main            ] INFO  IStrategyRuleDaoTest   - Started IStrategyRuleDaoTest in 2.029 seconds (JVM running for 2.424)
+25-06-15.20:14:10.136 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:14:10.295 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:14:10.355 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:14:10.359 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:14:34.493 [main            ] INFO  IStrategyRuleDaoTest   - Starting IStrategyRuleDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1948 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:14:34.494 [main            ] INFO  IStrategyRuleDaoTest   - The following 1 profile is active: "dev"
+25-06-15.20:14:34.884 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:14:34.885 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:14:34.897 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:14:35.522 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:14:35.536 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:14:35.641 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:14:35.683 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:14:36.367 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:14:36.399 [main            ] INFO  IStrategyRuleDaoTest   - Started IStrategyRuleDaoTest in 2.073 seconds (JVM running for 2.469)
+25-06-15.20:14:36.583 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:14:36.724 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:14:36.779 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:14:36.783 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:14:52.141 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 1964 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:14:52.142 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:14:52.516 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:14:52.517 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:14:52.529 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:14:53.101 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:14:53.114 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:14:53.208 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:14:53.252 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:14:53.912 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:14:53.939 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 1.953 seconds (JVM running for 2.304)
+25-06-15.20:14:54.096 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:17:20.211 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2038 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:17:20.211 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:17:20.615 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:17:20.617 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:17:20.631 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:17:21.265 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:17:21.277 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:17:21.386 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:17:21.432 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:17:22.115 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:17:22.144 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.098 seconds (JVM running for 2.494)
+25-06-15.20:17:22.319 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:17:30.200 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2058 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:17:30.201 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:17:30.569 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:17:30.570 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:17:30.583 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:17:31.197 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:17:31.208 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:17:31.317 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:17:31.358 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:17:32.023 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:17:32.049 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.015 seconds (JVM running for 2.379)
+25-06-15.20:17:32.216 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:17:44.175 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2070 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:17:44.176 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:17:44.568 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:17:44.569 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:17:44.582 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:17:45.197 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:17:45.209 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:17:45.302 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:17:45.342 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:17:46.042 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:17:46.069 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.052 seconds (JVM running for 2.445)
+25-06-15.20:17:46.249 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:20:51.672 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2161 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:20:51.673 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:20:52.071 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:20:52.073 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:20:52.086 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:20:52.722 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:20:52.735 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:20:52.845 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:20:52.887 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:20:53.545 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:20:53.574 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.069 seconds (JVM running for 2.453)
+25-06-15.20:20:53.753 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:20:53.767 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:20:53.910 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:20:53.967 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:20:53.973 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:21:12.179 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2178 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:21:12.179 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:21:12.574 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:21:12.576 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:21:12.588 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:21:13.221 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:21:13.234 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:21:13.349 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:21:13.391 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:21:14.037 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:21:14.064 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.052 seconds (JVM running for 2.437)
+25-06-15.20:21:14.248 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:21:14.263 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:21:14.407 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:21:14.466 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:21:14.470 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:21:42.007 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2202 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:21:42.008 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:21:42.434 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:21:42.436 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:21:42.453 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+25-06-15.20:21:43.111 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:21:43.124 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:21:43.236 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:21:43.281 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:21:43.975 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:21:44.005 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.18 seconds (JVM running for 2.582)
+25-06-15.20:21:44.178 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:21:44.193 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:21:44.336 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:21:44.403 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:21:44.411 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:22:19.259 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2216 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:22:19.259 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:22:19.659 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:22:19.661 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:22:19.674 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:22:20.301 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:22:20.315 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:22:20.423 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:22:20.466 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:22:21.124 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:22:21.153 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.056 seconds (JVM running for 2.441)
+25-06-15.20:22:21.335 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:22:21.350 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:22:21.517 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:22:21.575 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:22:21.580 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:45:06.153 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2903 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:45:06.154 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:45:06.583 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:45:06.585 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:45:06.600 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:45:07.291 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:45:07.306 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:45:07.414 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:45:07.453 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:45:08.328 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:45:08.360 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.92 seconds (JVM running for 4.831)
+25-06-15.20:45:09.340 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2907 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:45:09.340 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:45:09.728 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:45:09.729 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:45:09.744 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-06-15.20:45:10.352 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:45:10.363 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:45:10.460 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:45:10.504 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:45:11.172 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:45:11.208 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.042 seconds (JVM running for 2.433)
+25-06-15.20:45:11.398 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:45:11.414 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:45:11.567 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:45:11.629 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:45:11.632 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:45:44.201 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2950 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:45:44.202 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:45:44.600 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:45:44.601 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:45:44.614 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:45:45.247 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:45:45.262 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:45:45.376 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:45:45.424 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:45:46.129 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:45:46.160 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.125 seconds (JVM running for 2.519)
+25-06-15.20:45:46.342 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:14, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:45:46.358 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:45:46.527 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:45:46.588 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:45:46.592 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:47:35.892 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3008 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:47:35.892 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.20:47:36.298 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:47:36.300 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:47:36.314 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-06-15.20:47:36.959 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:47:36.971 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:47:37.079 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:47:37.122 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:47:37.794 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:47:37.823 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.106 seconds (JVM running for 2.47)
+25-06-15.20:47:38.001 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:user001, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:47:38.015 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:47:38.173 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:47:38.232 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:47:38.237 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:55:17.766 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3248 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:55:17.767 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.20:55:18.185 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:55:18.186 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:55:18.199 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:55:18.833 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:55:18.846 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:55:18.951 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:55:18.993 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:55:19.687 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:55:19.715 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.125 seconds (JVM running for 2.559)
+25-06-15.20:55:19.885 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:user001, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.20:55:19.900 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.20:55:20.041 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.20:55:20.099 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.20:55:20.103 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.20:56:52.084 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3313 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:56:52.085 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.20:56:52.493 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:56:52.495 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:56:52.508 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:56:53.142 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:56:53.157 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:56:53.263 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:56:53.303 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:56:53.972 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:56:54.000 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.093 seconds (JVM running for 2.474)
+25-06-15.20:56:54.040 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d34d211] to prepare test instance [org.example.test.domain.service.rule.impl.WeightValueFilterTest@d3cce46]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.example.test.domain.service.rule.impl.WeightValueFilterTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected single matching bean but found 2: ruleBlackListLogicFilter,ruleWeightLogicFilter
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected single matching bean but found 2: ruleBlackListLogicFilter,ruleWeightLogicFilter
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1369)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-06-15.20:58:09.471 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3359 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:58:09.471 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.20:58:09.898 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:58:09.899 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:58:09.912 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.20:58:10.568 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:58:10.580 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:58:10.686 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:58:10.730 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:58:11.565 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:58:11.622 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.323 seconds (JVM running for 2.758)
+25-06-15.20:58:11.702 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d34d211] to prepare test instance [org.example.test.domain.service.rule.impl.WeightValueFilterTest@56d822dc]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.example.test.domain.service.rule.impl.WeightValueFilterTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected single matching bean but found 2: ruleBlackListLogicFilter,ruleWeightLogicFilter
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected single matching bean but found 2: ruleBlackListLogicFilter,ruleWeightLogicFilter
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1369)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-06-15.20:59:07.825 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3392 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.20:59:07.825 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.20:59:08.218 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.20:59:08.219 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.20:59:08.232 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+25-06-15.20:59:08.894 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.20:59:08.908 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.20:59:09.019 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:59:09.060 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.20:59:09.724 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.20:59:09.752 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.09 seconds (JVM running for 2.456)
+25-06-15.20:59:09.795 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2de23121] to prepare test instance [org.example.test.domain.service.rule.impl.WeightValueFilterTest@d3cce46]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.example.test.domain.service.rule.impl.WeightValueFilterTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=), @org.springframework.beans.factory.annotation.Qualifier(value=RuleWeightLogicFilter)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=), @org.springframework.beans.factory.annotation.Qualifier(value=RuleWeightLogicFilter)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-06-15.21:00:50.596 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3437 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:00:50.596 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.21:00:51.003 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:00:51.005 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:00:51.017 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.21:00:51.616 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:00:51.630 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:00:51.742 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:00:51.782 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:00:52.445 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:00:52.472 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.06 seconds (JVM running for 2.425)
+25-06-15.21:00:52.508 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d34d211] to prepare test instance [org.example.test.domain.service.rule.impl.RuleBlackLogicFilterTest@d3cce46]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.example.test.domain.service.rule.impl.RuleBlackLogicFilterTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected single matching bean but found 2: ruleBlackListLogicFilter,ruleWeightLogicFilter
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected single matching bean but found 2: ruleBlackListLogicFilter,ruleWeightLogicFilter
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1369)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-06-15.21:01:07.244 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3458 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:01:07.244 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.21:01:07.643 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:01:07.645 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:01:07.658 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-06-15.21:01:08.295 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:01:08.309 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:01:08.418 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:01:08.457 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:01:09.133 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:01:09.167 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.094 seconds (JVM running for 2.494)
+25-06-15.21:01:09.209 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d34d211] to prepare test instance [org.example.test.domain.service.rule.impl.RuleBlackLogicFilterTest@d3cce46]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.example.test.domain.service.rule.impl.RuleBlackLogicFilterTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected single matching bean but found 2: ruleBlackListLogicFilter,ruleWeightLogicFilter
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.rule.ILogicFilter<org.example.domain.strategy.model.entity.RuleActionEntity$RaffleBeforeEntity>' available: expected single matching bean but found 2: ruleBlackListLogicFilter,ruleWeightLogicFilter
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(DependencyDescriptor.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1369)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-06-15.21:01:46.664 [main            ] INFO  RuleBlackLogicFilterTest - Starting RuleBlackLogicFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3475 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:01:46.664 [main            ] INFO  RuleBlackLogicFilterTest - The following 1 profile is active: "dev"
+25-06-15.21:01:47.072 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:01:47.073 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:01:47.089 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-06-15.21:01:47.717 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:01:47.729 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:01:47.828 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:01:47.872 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:01:48.528 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:01:48.556 [main            ] INFO  RuleBlackLogicFilterTest - Started RuleBlackLogicFilterTest in 2.072 seconds (JVM running for 2.436)
+25-06-15.21:01:48.737 [main            ] INFO  RuleBlackListLogicFilter - 规则过滤，黑名单 userId:user001, strategyId:100001, ruleModel:rule_blacklist
+25-06-15.21:01:48.751 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.21:01:48.886 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.21:01:48.939 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.21:01:48.943 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.21:02:21.036 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 3500 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:02:21.037 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.21:02:21.441 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:02:21.442 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:02:21.456 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-06-15.21:02:22.072 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:02:22.087 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:02:22.184 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:02:22.225 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:02:22.926 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:02:22.955 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.094 seconds (JVM running for 2.468)
+25-06-15.21:02:23.145 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.21:02:23.286 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.21:02:23.347 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.21:02:23.351 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.21:24:06.273 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 4128 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:24:06.274 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.21:24:06.664 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:24:06.665 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:24:06.681 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-06-15.21:24:07.288 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:24:07.301 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:24:07.398 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:24:07.460 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:24:08.140 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:24:08.166 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.07 seconds (JVM running for 2.431)
+25-06-15.21:24:08.346 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.21:24:08.489 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.21:24:08.538 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.21:24:08.543 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.21:31:02.197 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 4329 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:31:02.198 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.21:31:02.629 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:31:02.631 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:31:02.646 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-06-15.21:31:03.265 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:31:03.278 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:31:03.373 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:31:03.414 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:31:04.100 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:31:04.129 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.105 seconds (JVM running for 2.494)
+25-06-15.21:31:04.317 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.21:31:04.468 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.21:31:04.526 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.21:31:04.530 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.21:41:32.962 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 4625 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:41:32.963 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.21:41:33.357 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:41:33.359 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:41:33.371 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.21:41:34.021 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:41:34.039 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:41:34.166 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:41:34.209 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:41:34.838 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:41:34.865 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.077 seconds (JVM running for 2.473)
+25-06-15.21:41:35.050 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.21:41:35.192 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.21:41:35.239 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.21:41:35.242 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.21:43:08.529 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 4664 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:43:08.529 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.21:43:08.924 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:43:08.926 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:43:08.939 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-06-15.21:43:09.556 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:43:09.569 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:43:09.685 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:43:09.730 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:43:10.398 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:43:10.428 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.073 seconds (JVM running for 2.49)
+25-06-15.21:43:10.614 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.21:43:10.779 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.21:43:10.833 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.21:43:10.836 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.21:49:47.629 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 4883 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:49:47.630 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.21:49:48.014 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:49:48.016 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:49:48.029 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+25-06-15.21:49:48.641 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:49:48.653 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:49:48.750 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:49:48.791 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:49:49.486 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:49:49.513 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.05 seconds (JVM running for 2.44)
+25-06-15.21:49:49.711 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.21:49:49.861 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.21:49:49.926 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.21:49:49.930 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-06-15.21:50:11.682 [main            ] INFO  WeightValueFilterTest  - Starting WeightValueFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 4901 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-06-15.21:50:11.682 [main            ] INFO  WeightValueFilterTest  - The following 1 profile is active: "dev"
+25-06-15.21:50:12.075 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-06-15.21:50:12.077 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-06-15.21:50:12.090 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+25-06-15.21:50:12.724 [main            ] INFO  Version                - Redisson 3.24.3
+25-06-15.21:50:12.740 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-06-15.21:50:12.845 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:50:12.888 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-06-15.21:50:13.526 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-06-15.21:50:13.552 [main            ] INFO  WeightValueFilterTest  - Started WeightValueFilterTest in 2.042 seconds (JVM running for 2.422)
+25-06-15.21:50:13.738 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-06-15.21:50:13.874 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-06-15.21:50:13.927 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-06-15.21:50:13.933 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

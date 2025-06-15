@@ -1,4 +1,4 @@
-package org.example.test.infrastructure.dao.strategy.model.entity;
+package org.example.test.domain.entity;
 
 
 import lombok.extern.slf4j.Slf4j;

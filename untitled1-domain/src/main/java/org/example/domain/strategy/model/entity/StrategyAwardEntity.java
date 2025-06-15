@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StrategyAwardEntity {
+
     private long strategyId;
     private int awardId;
     private BigDecimal awardRate;

@@ -1,4 +1,4 @@
-package org.example.test.infrastructure.repository;
+package org.example.test.infrastructure;
 
 import lombok.extern.slf4j.Slf4j;
 import org.example.domain.strategy.model.entity.StrategyEntity;

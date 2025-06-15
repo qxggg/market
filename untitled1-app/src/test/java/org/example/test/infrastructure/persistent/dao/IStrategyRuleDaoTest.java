@@ -1,4 +1,4 @@
-package org.example.test.infrastructure.dao;
+package org.example.test.infrastructure.persistent.dao;
 
 import lombok.extern.slf4j.Slf4j;
 import org.example.infrastructure.persistent.dao.IStrategyRuleDao;
@@ -22,5 +22,14 @@ public class IStrategyRuleDaoTest {
         strategyRule.setRuleModel("rule_random");
         strategyRule.setStrategyId(100001L);
         System.out.println(strategyRuleDao.queryStrategyRuleListByStrategyId(strategyRule));
+    }
+
+    @Test
+    public void queryRuleValue(){
+        StrategyRule strategyRule = new StrategyRule();
+        strategyRule.setRuleModel("rule_blacklist");
+        strategyRule.setStrategyId(100001L);
+        strategyRule.setAwardId(120);
+        System.out.println(strategyRuleDao.queryStrategyRuleValue(strategyRule));
     }
 }

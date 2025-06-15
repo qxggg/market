@@ -12,6 +12,7 @@ import org.example.types.common.Constants;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StrategyEntity {
+
     Long strategyId;
     String strategyDesc;
     String ruleModels;
