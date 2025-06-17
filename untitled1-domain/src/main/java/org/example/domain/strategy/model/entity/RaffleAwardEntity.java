@@ -16,4 +16,5 @@ public class RaffleAwardEntity {
     private String awardKey;
     private String awardConfig;
     private String awardDesc;
+    
 }

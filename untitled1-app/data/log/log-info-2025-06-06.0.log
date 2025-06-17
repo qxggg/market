@@ -9,8 +9,8 @@
 25-06-06.11:17:12.769 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
 25-06-06.11:17:13.638 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
 25-06-06.11:17:13.674 [main            ] INFO  TestStragegyArmory     - Started TestStragegyArmory in 2.079 seconds (JVM running for 2.465)
-25-06-06.11:17:13.718 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d34d211] to prepare test instance [org.example.test.domain.TestStragegyArmory@13cc31ae]
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.example.test.domain.TestStragegyArmory': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.armory.StrategyArmoryDispatch' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+25-06-06.11:17:13.718 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d34d211] to prepare test instance [org.example.test.domain.service.armory.TestStragegyArmory@13cc31ae]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.example.test.domain.service.armory.TestStragegyArmory': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.domain.strategy.service.armory.StrategyArmoryDispatch' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
@@ -76,7 +76,7 @@ Action:
 
 Consider defining a bean of type 'org.example.domain.strategy.repository.IStrategyRepository' in your configuration.
 
-25-06-06.11:19:41.198 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7] to prepare test instance [org.example.test.domain.TestStragegyArmory@5fbe155]
+25-06-06.11:19:41.198 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7] to prepare test instance [org.example.test.domain.service.armory.TestStragegyArmory@5fbe155]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -160,7 +160,7 @@ Action:
 
 Consider defining a bean of type 'org.example.domain.strategy.repository.IStrategyRepository' in your configuration.
 
-25-06-06.11:24:40.278 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7] to prepare test instance [org.example.test.domain.TestStragegyArmory@b112b13]
+25-06-06.11:24:40.278 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7] to prepare test instance [org.example.test.domain.service.armory.TestStragegyArmory@b112b13]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -244,7 +244,7 @@ Action:
 
 Consider defining a bean of type 'org.example.domain.strategy.repository.IStrategyRepository' in your configuration.
 
-25-06-06.11:26:16.039 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7] to prepare test instance [org.example.test.domain.TestStragegyArmory@5fbe155]
+25-06-06.11:26:16.039 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7] to prepare test instance [org.example.test.domain.service.armory.TestStragegyArmory@5fbe155]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)

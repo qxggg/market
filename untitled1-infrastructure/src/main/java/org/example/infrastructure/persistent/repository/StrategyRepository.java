@@ -81,6 +81,7 @@ public class StrategyRepository implements IStrategyRepository {
 
     @Override
     public int getRateRange(String key) {
+        System.out.println(key);
         return redisService.getValue(Constants.RedisKey.STRATEGY_RATE_RANGE_KEY + key);
     }
 
@@ -114,7 +115,7 @@ public class StrategyRepository implements IStrategyRepository {
     }
 
     @Override
-    public String queryStrategyRuleEntityByStrategyId(Long strategyId, int awardId, String ruleModel) {
+    public String queryStrategyRuleEntityByStrategyId(Long strategyId, Integer awardId, String ruleModel) {
         StrategyRule strategyRule = new StrategyRule();
         strategyRule.setStrategyId(strategyId);
         strategyRule.setRuleModel(ruleModel);

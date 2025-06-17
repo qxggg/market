@@ -14,9 +14,9 @@ import java.math.BigDecimal;
 public class StrategyAwardEntity {
 
     private long strategyId;
-    private int awardId;
+    private Integer awardId;
     private BigDecimal awardRate;
     private String awardSubtitle;
-    private int awardCount;
-    private int awardCountSurplus;
+    private Integer awardCount;
+    private Integer awardCountSurplus;
 }

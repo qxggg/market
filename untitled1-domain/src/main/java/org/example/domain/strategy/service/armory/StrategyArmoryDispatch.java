@@ -45,7 +45,6 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IstrategyDispatc
             ArrayList<StrategyAwardEntity> strategyAwardEntityArrayList = new ArrayList<>(strategyAwardEntities);
             strategyAwardEntityArrayList.removeIf(entity -> !ruleWeightValueList.contains(entity.getAwardId()));
             assembleLotteryStrategy(String.valueOf(strategyId).concat("_").concat(key), strategyAwardEntityArrayList);
-
         }
         return true;
     }
@@ -112,9 +111,9 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IstrategyDispatc
     @Override
     public Integer getRandomAwardId(Long strategyId, String ruleWeightValue) {
         String key = String.valueOf(strategyId).concat("_").concat(ruleWeightValue);
-        int rateRange = repository.getRateRange(strategyId);
+        int rateRange = repository.getRateRange(key);
         // 通过生成的随机值，获取概率值奖品查找表的结果
-        return repository.getStrategyAwardAssemble(String.valueOf(strategyId), new SecureRandom().nextInt(rateRange));
+        return repository.getStrategyAwardAssemble(key, new SecureRandom().nextInt(rateRange));
     }
 
 

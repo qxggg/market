@@ -1,4 +1,4 @@
-package org.example.test.domain;
+package org.example.test.domain.service.armory;
 
 import lombok.extern.slf4j.Slf4j;
 import org.example.domain.strategy.repository.IStrategyRepository;
@@ -45,7 +45,7 @@ public class TestStragegyArmory {
     @Test
     public void testGetStrategyRandomAward(){
         for (int i = 0; i < 10; i++) {
-            System.out.println(strategyDispatch.getRandomAwardId(100001L, "4000:102, 103, 104, 105"));
+            System.out.println(strategyDispatch.getRandomAwardId(100001L, "4000"));
         }
 
    }

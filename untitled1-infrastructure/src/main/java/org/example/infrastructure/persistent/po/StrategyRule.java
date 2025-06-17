@@ -8,12 +8,13 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
 @Data
 public class StrategyRule {
     Long strategyId;
-    int id;
-    int awardId;
-    int ruleType;
+    Integer id;
+    Integer awardId;
+    Integer ruleType;
     String ruleModel;
     String ruleValue;
     String ruleDesc;

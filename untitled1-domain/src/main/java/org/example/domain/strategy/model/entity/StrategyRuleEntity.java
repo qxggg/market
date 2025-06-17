@@ -18,8 +18,8 @@ import java.util.Map;
 public class StrategyRuleEntity {
 
     Long strategyId;
-    int awardId;
-    int ruleType;
+    Integer awardId;
+    Integer ruleType;
     String ruleModel;
     String ruleValue;
     String ruleDesc;
