@@ -27,9 +27,9 @@ public class IStrategyRuleDaoTest {
     @Test
     public void queryRuleValue(){
         StrategyRule strategyRule = new StrategyRule();
-        strategyRule.setRuleModel("rule_blacklist");
-        strategyRule.setStrategyId(100001L);
-        strategyRule.setAwardId(120);
+        strategyRule.setRuleModel("rule_lock");
+        strategyRule.setStrategyId(100002L);
+        strategyRule.setAwardId(107);
         System.out.println(strategyRuleDao.queryStrategyRuleValue(strategyRule));
     }
 }

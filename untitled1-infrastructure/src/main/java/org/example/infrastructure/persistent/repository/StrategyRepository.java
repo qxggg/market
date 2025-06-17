@@ -3,6 +3,7 @@ package org.example.infrastructure.persistent.repository;
 import org.example.domain.strategy.model.entity.StrategyAwardEntity;
 import org.example.domain.strategy.model.entity.StrategyEntity;
 import org.example.domain.strategy.model.entity.StrategyRuleEntity;
+import org.example.domain.strategy.model.vo.StrategyAwardRuleModelVo;
 import org.example.domain.strategy.repository.IStrategyRepository;
 import org.example.infrastructure.persistent.dao.IAwardDao;
 import org.example.infrastructure.persistent.dao.IStrategyAwardDao;
@@ -36,6 +37,7 @@ public class StrategyRepository implements IStrategyRepository {
 
     @Resource
     private IStrategyRuleDao strategyRuleDao;
+
 
     @Override
     public List<StrategyAwardEntity> strategyAwardEntities(Long strategyId) {
@@ -121,6 +123,14 @@ public class StrategyRepository implements IStrategyRepository {
         strategyRule.setRuleModel(ruleModel);
         strategyRule.setAwardId(awardId);
         return strategyRuleDao.queryStrategyRuleValue(strategyRule);
+    }
+
+    @Override
+    public StrategyAwardRuleModelVo queryStrategyAwardRuleModelVoByStrategyId(Long strategyId, Integer awardId) {
+        StrategyAward strategyAward = new StrategyAward();
+        strategyAward.setStrategyId(strategyId);
+        strategyAward.setAwardId(awardId);
+        return new StrategyAwardRuleModelVo(strategyAwardDao.queryStrategyRuleModel(strategyAward).getRuleModels());
     }
 
 }

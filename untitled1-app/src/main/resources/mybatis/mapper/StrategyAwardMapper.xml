@@ -21,9 +21,14 @@
     <select id="queryStrategyAwardListByStrategyId" parameterType="java.lang.Long" resultMap="StragegyAwardMap">
         select strategy_id, award_id, award_count, award_count_surplus, award_rate
         from strategy_award
-        where strategy_id = #{strategy_id}
+        where strategy_id = #{strategy_Id}
     </select>
 
+    <select id="queryStrategyRuleModel" parameterType="org.example.infrastructure.persistent.po.StrategyAward" resultMap="StragegyAwardMap">
+        select rule_models
+        from strategy_award
+        where strategy_id = #{strategyId} and award_id = #{awardId}
+    </select>
 </mapper>
 
 

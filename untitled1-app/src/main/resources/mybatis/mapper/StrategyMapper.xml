@@ -15,7 +15,7 @@
     <select id="queryStrategyById" parameterType="java.lang.Long" resultMap="StragegyAwardMap">
         select strategy_id, rule_models, strategy_desc
         from strategy
-        where strategy_id = #{strategy_id}
+        where strategy_id = #{strategyId}
     </select>
 
 </mapper>
