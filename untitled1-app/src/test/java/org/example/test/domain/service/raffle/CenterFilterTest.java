@@ -4,12 +4,10 @@ import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.example.domain.strategy.model.entity.RaffleAwardEntity;
 import org.example.domain.strategy.model.entity.RaffleFactorEntity;
-import org.example.domain.strategy.model.entity.RuleActionEntity;
-import org.example.domain.strategy.model.entity.RuleMatterEntity;
 import org.example.domain.strategy.service.armory.IStrategyArmory;
 import org.example.domain.strategy.service.raffle.AbstractRaffleStrategy;
-import org.example.domain.strategy.service.rule.impl.RuleLockLogicFilter;
-import org.example.domain.strategy.service.rule.impl.RuleWeightLogicFilter;
+import org.example.domain.strategy.service.rule.filter.impl.RuleLockLogicFilter;
+import org.example.domain.strategy.service.rule.filter.impl.RuleWeightLogicFilter;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -39,8 +37,8 @@ public class CenterFilterTest {
 
     @Before
     public void setUp() {
-        ReflectionTestUtils.setField(ruleWeightLogicFilter, "userScore", 40500L);
-        ReflectionTestUtils.setField(ruleLockLogicFilter, "userRaffleCount", 0L);
+        ReflectionTestUtils.setField(ruleWeightLogicFilter, "userScore", 0L);
+        ReflectionTestUtils.setField(ruleLockLogicFilter, "userRaffleCount", 2L);
 
         log.info("测试结果：{}", strategyArmory.assembleLotteryStrategy(100002L));
     }

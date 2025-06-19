@@ -1,15 +1,13 @@
-package org.example.domain.strategy.service.rule.impl;
+package org.example.domain.strategy.service.rule.filter.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import org.checkerframework.checker.units.qual.A;
 import org.example.domain.strategy.model.entity.RuleActionEntity;
 import org.example.domain.strategy.model.entity.RuleMatterEntity;
-import org.example.domain.strategy.model.entity.StrategyRuleEntity;
 import org.example.domain.strategy.model.vo.RuleLogicCheckTypeVo;
 import org.example.domain.strategy.repository.IStrategyRepository;
 import org.example.domain.strategy.service.annotation.LogicStrategy;
-import org.example.domain.strategy.service.rule.ILogicFilter;
-import org.example.domain.strategy.service.rule.factory.DefaultLogicFactory;
+import org.example.domain.strategy.service.rule.filter.ILogicFilter;
+import org.example.domain.strategy.service.rule.filter.factory.DefaultLogicFactory;
 import org.example.types.common.Constants;
 import org.springframework.stereotype.Component;
 
@@ -42,7 +40,7 @@ public class RuleWeightLogicFilter implements ILogicFilter<RuleActionEntity.Raff
         }
 
         List<Long> sortedKeys = new ArrayList<>(map.keySet());
-        System.out.println(sortedKeys);
+        Collections.sort(sortedKeys);
 
         Long nextValue = sortedKeys.stream()
                 .filter(key -> userScore >= key)

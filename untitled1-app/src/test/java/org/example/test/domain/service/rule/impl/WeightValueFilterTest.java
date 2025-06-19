@@ -3,7 +3,7 @@ package org.example.test.domain.service.rule.impl;
 import lombok.extern.slf4j.Slf4j;
 import org.example.domain.strategy.model.entity.RuleActionEntity;
 import org.example.domain.strategy.model.entity.RuleMatterEntity;
-import org.example.domain.strategy.service.rule.ILogicFilter;
+import org.example.domain.strategy.service.rule.filter.ILogicFilter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Qualifier;

@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.example.domain.strategy.model.entity.RaffleAwardEntity;
 import org.example.domain.strategy.model.entity.RaffleFactorEntity;
 import org.example.domain.strategy.service.raffle.AbstractRaffleStrategy;
-import org.example.domain.strategy.service.rule.impl.RuleWeightLogicFilter;
+import org.example.domain.strategy.service.rule.filter.impl.RuleWeightLogicFilter;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

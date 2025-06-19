@@ -1,4 +1,4 @@
-package org.example.domain.strategy.service.rule.impl;
+package org.example.domain.strategy.service.rule.filter.impl;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -7,8 +7,8 @@ import org.example.domain.strategy.model.entity.RuleMatterEntity;
 import org.example.domain.strategy.model.vo.RuleLogicCheckTypeVo;
 import org.example.domain.strategy.repository.IStrategyRepository;
 import org.example.domain.strategy.service.annotation.LogicStrategy;
-import org.example.domain.strategy.service.rule.ILogicFilter;
-import org.example.domain.strategy.service.rule.factory.DefaultLogicFactory;
+import org.example.domain.strategy.service.rule.filter.ILogicFilter;
+import org.example.domain.strategy.service.rule.filter.factory.DefaultLogicFactory;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
@@ -26,7 +26,7 @@ public class RuleLockLogicFilter implements ILogicFilter<RuleActionEntity.Raffle
     public RuleActionEntity<RuleActionEntity.RaffleCenterEntity> filter(RuleMatterEntity ruleMatterEntity) {
         log.info("规则过滤-次数锁 userId:{}, strategyId:{}, awardId:{}", ruleMatterEntity.getUserId(), ruleMatterEntity.getStrategyID(), ruleMatterEntity.getAwardId());
         String ruleValue = repository.queryStrategyRuleEntityByStrategyId(ruleMatterEntity.getStrategyID(), ruleMatterEntity.getAwardId(), ruleMatterEntity.getRuleModel());
-        if (userRaffleCount > Long.parseLong(ruleValue)) {
+        if (userRaffleCount >= Long.parseLong(ruleValue)) {
            return RuleActionEntity.<RuleActionEntity.RaffleCenterEntity>builder()
                    .code(RuleLogicCheckTypeVo.ALLOW.getCode())
                    .info(RuleLogicCheckTypeVo.ALLOW.getInfo())
