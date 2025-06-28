@@ -6,6 +6,7 @@ import org.example.domain.strategy.service.rule.chain.ILogicChain;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.HashMap;
 import java.util.Map;
 
