@@ -47,14 +47,17 @@ public class CenterFilterTest {
     }
 
     @Test
-    public void testDoCentor(){
-        RaffleFactorEntity raffleFactorEntity = RaffleFactorEntity.builder()
-                .strategyId(100006L)
-                .userId("user005")
-                .build();
-        RaffleAwardEntity raffleAwardEntity = raffleStrategy.performRaffle(raffleFactorEntity);
-        log.info("请求参数 : {}", JSON.toJSONString(raffleFactorEntity));
-        log.info("测试结果 : {}", JSON.toJSONString(raffleAwardEntity));
+    public void testDoCentor() throws InterruptedException {
+        for (int i = 0; i < 10; i++) {
+            RaffleFactorEntity raffleFactorEntity = RaffleFactorEntity.builder()
+                    .strategyId(100006L)
+                    .userId("user005")
+                    .build();
+            RaffleAwardEntity raffleAwardEntity = raffleStrategy.performRaffle(raffleFactorEntity);
+            log.info("请求参数 : {}", JSON.toJSONString(raffleFactorEntity));
+            log.info("测试结果 : {}", JSON.toJSONString(raffleAwardEntity));
+            Thread.sleep(6000);
+        }
     }
 
 

@@ -19,9 +19,9 @@ public class RuleLockLogicTreeNode implements ILogicTreeNode {
     private Long userRaffleCount = 0L;
 
     @Override
-    public DefaultTreeNodeFactory.TreeActionEntity logic(String userId, Long strategyId, Integer awardId) {
-        String ruleValue = repository.queryStrategyRuleEntityByStrategyId(strategyId, awardId, "rule_lock");
+    public DefaultTreeNodeFactory.TreeActionEntity logic(String userId, Long strategyId, Integer awardId, String ruleValue) {
         if (ruleValue != null && userRaffleCount <= Long.parseLong(ruleValue)) {
+            log.info("规则过滤，lock解锁接管了，userid:{},strategyId:{},awardId:{}", userId, strategyId, awardId);
             return DefaultTreeNodeFactory.TreeActionEntity.builder()
                     .ruleLogicCheckTypeVo(RuleLogicCheckTypeVo.TAKE_OVER)
                     .build();

@@ -10,6 +10,7 @@ import org.example.domain.strategy.model.entity.StrategyEntity;
 import org.example.domain.strategy.model.vo.RuleLogicCheckTypeVo;
 import org.example.domain.strategy.model.vo.StrategyAwardRuleModelVo;
 import org.example.domain.strategy.repository.IStrategyRepository;
+import org.example.domain.strategy.service.IRaffleStock;
 import org.example.domain.strategy.service.IRaffleStrategy;
 import org.example.domain.strategy.service.armory.IstrategyDispatch;
 import org.example.domain.strategy.service.rule.chain.ILogicChain;
@@ -21,7 +22,7 @@ import org.example.types.exception.AppException;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Slf4j
-public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
+public abstract class AbstractRaffleStrategy implements IRaffleStrategy, IRaffleStock {
 
     protected IStrategyRepository strategyRepository;
 

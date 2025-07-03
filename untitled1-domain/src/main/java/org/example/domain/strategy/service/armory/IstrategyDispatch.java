@@ -6,5 +6,7 @@ public interface IstrategyDispatch {
 
     Integer getRandomAwardId(Long strategyId, String ruleWeightValue);
 
+    void cacheStrategyAwardCount(Long strategyId, Integer awardId, Integer awardCount);
 
+    Boolean subtractionAwardStock(Long strategyId, Integer awardId);
 }
