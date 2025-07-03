@@ -29,7 +29,7 @@ public class TestStragegyArmory {
 
     @Test
     public void testSum() {
-       strategyArmory.assembleLotteryStrategy(100001L);
+       strategyArmory.assembleLotteryStrategy(100006L);
    }
 
     @Test

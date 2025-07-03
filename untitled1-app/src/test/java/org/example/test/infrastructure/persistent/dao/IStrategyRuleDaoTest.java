@@ -28,8 +28,8 @@ public class IStrategyRuleDaoTest {
     public void queryRuleValue(){
         StrategyRule strategyRule = new StrategyRule();
         strategyRule.setRuleModel("rule_lock");
-        strategyRule.setStrategyId(100002L);
-        strategyRule.setAwardId(107);
+        strategyRule.setStrategyId(100006L);
+        strategyRule.setAwardId(101);
         System.out.println(strategyRuleDao.queryStrategyRuleValue(strategyRule));
     }
 }

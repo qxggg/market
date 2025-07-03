@@ -38,4 +38,9 @@ public class IStrategtRepositoryTest {
     public void testqueryStrategyRuleEntityByStrategyId(){
         System.out.println(repository.queryStrategyRuleEntityByStrategyId(100001L, 101, "rule_lock"));
     }
+
+    @Test
+    public void testQueryTreeById(){
+        System.out.println(repository.queryRuleTreeVOByTreeId("tree_lock"));
+    }
 }

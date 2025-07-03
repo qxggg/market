@@ -43,6 +43,7 @@ public class DecisionTreeNodeEngine implements IDecisionTreeNodeEngine {
         return strategyAwardData;
     }
     String next(String ruleMatter, List<RuleTreeNodeLineVO> list){
+        System.out.println(list);
         if (list == null || list.isEmpty()) return null;
         for (RuleTreeNodeLineVO ruleTreeNodeLineVO : list) {
             if (decisionLogic(ruleMatter, ruleTreeNodeLineVO)){

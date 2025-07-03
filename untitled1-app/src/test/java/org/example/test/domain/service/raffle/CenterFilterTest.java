@@ -8,6 +8,7 @@ import org.example.domain.strategy.service.armory.IStrategyArmory;
 import org.example.domain.strategy.service.raffle.AbstractRaffleStrategy;
 import org.example.domain.strategy.service.rule.filter.impl.RuleLockLogicFilter;
 import org.example.domain.strategy.service.rule.filter.impl.RuleWeightLogicFilter;
+import org.example.domain.strategy.service.rule.tree.impl.RuleLockLogicTreeNode;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,21 +34,23 @@ public class CenterFilterTest {
     @Autowired
     private RuleLockLogicFilter ruleLockLogicFilter;
     @Autowired
+    private RuleLockLogicTreeNode ruleLockLogicTreeNode;
+    @Autowired
     IStrategyArmory strategyArmory;
 
     @Before
     public void setUp() {
-        ReflectionTestUtils.setField(ruleWeightLogicFilter, "userScore", 0L);
+        ReflectionTestUtils.setField(ruleWeightLogicFilter, "userScore", 7000L);
         ReflectionTestUtils.setField(ruleLockLogicFilter, "userRaffleCount", 2L);
-
+        ReflectionTestUtils.setField(ruleLockLogicTreeNode, "userRaffleCount", 3L);
         log.info("测试结果：{}", strategyArmory.assembleLotteryStrategy(100002L));
     }
 
     @Test
     public void testDoCentor(){
         RaffleFactorEntity raffleFactorEntity = RaffleFactorEntity.builder()
-                .strategyId(100002L)
-                .userId("user004")
+                .strategyId(100006L)
+                .userId("user005")
                 .build();
         RaffleAwardEntity raffleAwardEntity = raffleStrategy.performRaffle(raffleFactorEntity);
         log.info("请求参数 : {}", JSON.toJSONString(raffleFactorEntity));

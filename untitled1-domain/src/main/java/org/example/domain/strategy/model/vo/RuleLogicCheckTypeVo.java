@@ -9,7 +9,6 @@ public enum RuleLogicCheckTypeVo{
 
     ALLOW("0000", "放行，执行后续流程，不受规则引擎影响"),
     TAKE_OVER("0001", "接管，后续的流程，受规则引擎影响");
-
     private final String code;
     private final String info;
 }
