@@ -3169,3 +3169,122 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infr
 25-07-04.05:54:10.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
 25-07-04.05:54:10.430 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
 25-07-04.05:54:10.436 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-07-04.07:41:52.643 [main            ] INFO  CenterFilterTest       - Starting CenterFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 11630 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-04.07:41:52.643 [main            ] INFO  CenterFilterTest       - The following 1 profile is active: "dev"
+25-07-04.07:41:53.078 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-04.07:41:53.079 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-04.07:41:53.095 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-07-04.07:41:53.743 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-04.07:41:53.755 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-04.07:41:53.863 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-04.07:41:54.000 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-04.07:41:54.722 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-04.07:41:54.752 [main            ] INFO  CenterFilterTest       - Started CenterFilterTest in 2.291 seconds (JVM running for 2.677)
+25-07-04.07:41:55.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:41:55.135 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-04.07:41:55.327 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-04.07:41:55.355 [main            ] INFO  CenterFilterTest       - 测试结果：true
+25-07-04.07:41:55.374 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:41:55.390 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:41:55.403 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-04.07:41:55.403 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-04.07:41:55.423 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-04.07:41:55.459 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-04.07:41:55.540 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:41:55.543 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102}
+25-07-04.07:42:00.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:00.025 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-04.07:42:01.573 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:01.584 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:01.602 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-04.07:42:01.602 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-04.07:42:01.618 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-04.07:42:01.642 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-04.07:42:01.642 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:01.642 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102}
+25-07-04.07:42:05.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:05.019 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-04.07:42:07.674 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:07.685 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:07.701 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-04.07:42:07.701 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-04.07:42:07.718 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-04.07:42:07.745 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-04.07:42:07.746 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:07.746 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102}
+25-07-04.07:42:10.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:13.781 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:13.790 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:13.805 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-04.07:42:13.806 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-04.07:42:13.823 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-04.07:42:13.842 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-04.07:42:13.842 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:13.842 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101}
+25-07-04.07:42:15.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:15.014 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-04.07:42:19.866 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:19.872 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:19.884 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-04.07:42:19.884 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-04.07:42:19.896 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-04.07:42:19.918 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-04.07:42:19.918 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:19.918 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101}
+25-07-04.07:42:20.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:20.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-04.07:42:25.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:25.013 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-04.07:42:25.946 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:25.956 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:25.969 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-04.07:42:25.970 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-04.07:42:25.989 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-04.07:42:26.008 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-04.07:42:26.009 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:26.009 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101}
+25-07-04.07:42:30.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:30.014 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-04.07:42:32.032 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:32.041 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:32.054 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-04.07:42:32.055 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-04.07:42:32.071 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-04.07:42:32.090 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-04.07:42:32.090 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:32.091 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101}
+25-07-04.07:42:35.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:38.116 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:38.127 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:38.141 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-04.07:42:38.141 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-04.07:42:38.156 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-04.07:42:38.175 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-04.07:42:38.176 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:38.176 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101}
+25-07-04.07:42:40.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:40.014 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-04.07:42:44.201 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:44.208 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:44.224 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-04.07:42:44.224 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-04.07:42:44.241 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-04.07:42:44.263 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-04.07:42:44.263 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:44.263 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101}
+25-07-04.07:42:45.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:45.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-04.07:42:50.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:50.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-04.07:42:50.288 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:50.297 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-04.07:42:50.312 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-04.07:42:50.312 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-04.07:42:50.332 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-04.07:42:50.352 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-04.07:42:50.352 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-04.07:42:50.353 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101}
+25-07-04.07:42:55.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.07:42:55.017 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-04.07:42:56.402 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-04.07:42:56.408 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
