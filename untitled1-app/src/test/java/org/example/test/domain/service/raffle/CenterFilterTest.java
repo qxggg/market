@@ -40,8 +40,6 @@ public class CenterFilterTest {
 
     @Before
     public void setUp() {
-        ReflectionTestUtils.setField(ruleWeightLogicFilter, "userScore", 7000L);
-        ReflectionTestUtils.setField(ruleLockLogicFilter, "userRaffleCount", 2L);
         ReflectionTestUtils.setField(ruleLockLogicTreeNode, "userRaffleCount", 3L);
         log.info("测试结果：{}", strategyArmory.assembleLotteryStrategy(100002L));
     }

@@ -8,6 +8,7 @@ import org.example.domain.strategy.model.entity.StrategyAwardEntity;
 import org.example.domain.strategy.service.IRaffleAward;
 import org.example.domain.strategy.service.IRaffleStrategy;
 import org.example.domain.strategy.service.armory.IStrategyArmory;
+import org.example.domain.strategy.service.rule.tree.impl.RuleLockLogicTreeNode;
 import org.example.trigger.api.IRaffleService;
 import org.example.trigger.api.dto.RaffleAwardListRequestDTO;
 import org.example.trigger.api.dto.RaffleAwardListResponseDTO;
@@ -16,6 +17,9 @@ import org.example.trigger.api.dto.RaffleResponseDTO;
 import org.example.types.enums.ResponseCode;
 import org.example.types.exception.AppException;
 import org.example.types.model.Response;
+import org.junit.Before;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.util.ReflectionTestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -24,7 +28,7 @@ import java.util.List;
 
 @RestController
 @Slf4j
-@CrossOrigin("${app.config.cross-origin}")
+@CrossOrigin("*")
 @RequestMapping("/api/${app.config.api-version}/raffle/")
 //
 public class RaffleController implements IRaffleService {
@@ -37,7 +41,6 @@ public class RaffleController implements IRaffleService {
 
     @Resource
     private IRaffleStrategy raffleStrategy;
-
 
     @GetMapping("test")
     public String hello(){
