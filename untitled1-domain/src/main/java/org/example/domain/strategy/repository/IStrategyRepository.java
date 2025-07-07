@@ -13,6 +13,9 @@ import java.util.Map;
 public interface IStrategyRepository {
 
     List<StrategyAwardEntity> strategyAwardEntities(Long strategyId);
+
+    StrategyAwardEntity queryStrategyAwardEntity(Long strategyId, Integer awardId);
+
     void storeStrategyAwardSearchRateTable(String key, Integer rateRange, Map<Integer, Integer> strategyAwardSearchRateTable);
 
     Integer getStrategyAwardAssemble(String key, Integer rateKey);

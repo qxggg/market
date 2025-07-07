@@ -1,0 +1,41 @@
+25-07-04.05:50:56.099 [main            ] INFO  Application            - Starting Application using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 2808 (/Users/xingeqi/Downloads/untitled1/untitled1-app/target/classes started by xingeqi in /Users/xingeqi/Downloads/untitled1)
+25-07-04.05:50:56.100 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-07-04.05:50:56.440 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-04.05:50:56.441 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-04.05:50:56.450 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+25-07-04.05:50:56.643 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+25-07-04.05:50:56.646 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+25-07-04.05:50:56.646 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-07-04.05:50:56.646 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-07-04.05:50:56.684 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-07-04.05:50:56.684 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+25-07-04.05:50:56.920 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-04.05:50:56.929 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-04.05:50:56.992 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-04.05:50:57.037 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-04.05:50:57.335 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-04.05:50:57.352 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+25-07-04.05:50:57.357 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+25-07-04.05:50:57.365 [main            ] INFO  Application            - Started Application in 1.438 seconds (JVM running for 1.725)
+25-07-04.05:50:57.920 [RMI TCP Connection(2)-192.168.12.160] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-04.05:50:57.921 [RMI TCP Connection(1)-192.168.12.160] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-07-04.05:50:57.921 [RMI TCP Connection(1)-192.168.12.160] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-07-04.05:50:57.922 [RMI TCP Connection(1)-192.168.12.160] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-07-04.05:50:58.034 [RMI TCP Connection(2)-192.168.12.160] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-04.05:51:00.010 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:05.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:10.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:15.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:20.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:25.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:30.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:35.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:40.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:50.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:51:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:52:00.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:52:05.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:52:10.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-04.05:52:12.052 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-04.05:52:12.055 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

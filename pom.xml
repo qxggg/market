@@ -13,6 +13,7 @@
         <module>untitled1-trigger</module>
         <module>untitled1-infrastructure</module>
         <module>untitled1-types</module>
+        <module>untitled1-api</module>
     </modules>
 
     <repositories>

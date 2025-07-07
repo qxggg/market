@@ -5,11 +5,13 @@ import org.apache.commons.lang3.StringUtils;
 import org.example.domain.strategy.model.entity.RaffleFactorEntity;
 import org.example.domain.strategy.model.entity.RuleActionEntity;
 import org.example.domain.strategy.model.entity.RuleMatterEntity;
+import org.example.domain.strategy.model.entity.StrategyAwardEntity;
 import org.example.domain.strategy.model.vo.RuleLogicCheckTypeVo;
 import org.example.domain.strategy.model.vo.RuleTreeVO;
 import org.example.domain.strategy.model.vo.StrategyAwardRuleModelVo;
 import org.example.domain.strategy.model.vo.StrategyAwardStockKeyVO;
 import org.example.domain.strategy.repository.IStrategyRepository;
+import org.example.domain.strategy.service.IRaffleAward;
 import org.example.domain.strategy.service.armory.IstrategyDispatch;
 import org.example.domain.strategy.service.rule.chain.ILogicChain;
 import org.example.domain.strategy.service.rule.chain.factory.DefaultChainFactory;
@@ -21,13 +23,14 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
 @Slf4j
-public class DefaultRaffleStrategy extends AbstractRaffleStrategy {
+public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRaffleAward {
 
     @Resource
     private DefaultLogicFactory logicFactory;
@@ -72,6 +75,11 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy {
     @Override
     public void updateStrategyAwardStock(Long strategyId, Integer awardId) {
         strategyRepository.updateStrategyAwardStock(strategyId, awardId);
+    }
+
+    @Override
+    public List<StrategyAwardEntity> queryAward(Long strategyId) {
+        return strategyRepository.strategyAwardEntities(strategyId);
     }
 
 //    @Override

@@ -19,4 +19,7 @@ public class StrategyAwardEntity {
     private String awardSubtitle;
     private Integer awardCount;
     private Integer awardCountSurplus;
+    private Integer sort;
+    private String awardTitle;
+
 }

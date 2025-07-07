@@ -19,10 +19,17 @@
     </resultMap>
 
     <select id="queryStrategyAwardListByStrategyId" parameterType="java.lang.Long" resultMap="StragegyAwardMap">
-        select strategy_id, award_id, award_count, award_count_surplus, award_rate
+        select strategy_id, award_id, sort, award_title, award_subtitle, award_count, award_count_surplus, award_rate
         from strategy_award
         where strategy_id = #{strategy_Id}
     </select>
+
+    <select id="queryStrategyAwardById" parameterType="org.example.infrastructure.persistent.po.StrategyAward" resultMap="StragegyAwardMap">
+        select strategy_id, award_id, award_title, award_subtitle, award_count, award_count_surplus, award_rate, rule_models, sort
+        from strategy_award
+        where strategy_id = #{strategyId} and award_id = #{awardId}
+    </select>
+
 
     <select id="queryStrategyRuleModel" parameterType="org.example.infrastructure.persistent.po.StrategyAward" resultMap="StragegyAwardMap">
         select rule_models
