@@ -1,0 +1,388 @@
+25-07-07.08:34:21.632 [main            ] INFO  CenterFilterTest       - Starting CenterFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 55878 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-07.08:34:21.633 [main            ] INFO  CenterFilterTest       - The following 1 profile is active: "dev"
+25-07-07.08:34:22.049 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-07.08:34:22.050 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-07.08:34:22.068 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-07-07.08:34:22.716 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-07.08:34:22.729 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-07.08:34:23.064 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.08:34:23.110 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.08:34:23.936 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-07.08:34:23.965 [main            ] INFO  CenterFilterTest       - Started CenterFilterTest in 2.525 seconds (JVM running for 3.168)
+25-07-07.08:34:24.187 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-07.08:34:25.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.08:34:29.347 [main            ] ERROR HikariPool             - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy97.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy103.queryStrategyById(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220)
+	at com.sun.proxy.$Proxy104.queryStrategyById(Unknown Source)
+	at org.example.infrastructure.persistent.repository.StrategyRepository.queryStrategyEntityByStrategyId(StrategyRepository.java:101)
+	at org.example.infrastructure.persistent.repository.StrategyRepository$$FastClassBySpringCGLIB$$19908ba7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at org.example.infrastructure.persistent.repository.StrategyRepository$$EnhancerBySpringCGLIB$$bd52baf6.queryStrategyEntityByStrategyId(<generated>)
+	at org.example.domain.strategy.service.armory.StrategyArmoryDispatch.assembleLotteryStrategy(StrategyArmoryDispatch.java:38)
+	at org.example.test.domain.service.raffle.CenterFilterTest.setUp(CenterFilterTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: com.mysql.cj.exceptions.CJException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:124)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:151)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:441)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:174)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1348)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850)
+	... 93 common frames omitted
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:128)
+	... 99 common frames omitted
+25-07-07.08:40:14.583 [main            ] INFO  CenterFilterTest       - Starting CenterFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 56368 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-07.08:40:14.584 [main            ] INFO  CenterFilterTest       - The following 1 profile is active: "dev"
+25-07-07.08:40:14.992 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-07.08:40:14.994 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-07.08:40:15.009 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+25-07-07.08:40:15.674 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-07.08:40:15.689 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-07.08:40:15.805 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.08:40:15.868 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.08:40:16.568 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-07.08:40:16.602 [main            ] INFO  CenterFilterTest       - Started CenterFilterTest in 2.187 seconds (JVM running for 2.587)
+25-07-07.08:40:17.146 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-07.08:40:17.962 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-07.08:40:18.002 [main            ] INFO  CenterFilterTest       - 测试结果：true
+25-07-07.08:40:18.129 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:40:18.153 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:40:18.298 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.08:40:18.299 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.08:40:18.322 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.08:40:18.750 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.08:40:18.850 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.08:40:18.852 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102}
+25-07-07.08:40:20.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.08:40:24.876 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:40:24.884 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:40:24.899 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.08:40:24.899 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.08:40:24.917 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.08:40:24.937 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.08:40:24.937 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.08:40:24.937 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102}
+25-07-07.08:40:25.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.08:40:25.013 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-07.08:40:27.183 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-07.08:40:27.188 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-07-07.08:56:22.348 [main            ] INFO  CenterFilterTest       - Starting CenterFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 57717 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-07.08:56:22.349 [main            ] INFO  CenterFilterTest       - The following 1 profile is active: "dev"
+25-07-07.08:56:22.757 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-07.08:56:22.759 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-07.08:56:22.773 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-07.08:56:23.426 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-07.08:56:23.438 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-07.08:56:23.546 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.08:56:23.590 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.08:56:24.315 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-07.08:56:24.343 [main            ] INFO  CenterFilterTest       - Started CenterFilterTest in 2.176 seconds (JVM running for 2.603)
+25-07-07.08:56:24.632 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-07.08:56:24.776 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-07.08:56:24.805 [main            ] INFO  CenterFilterTest       - 测试结果：true
+25-07-07.08:56:24.818 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:56:24.834 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:56:24.846 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.08:56:24.846 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.08:56:24.867 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.08:56:24.904 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.08:56:24.975 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.08:56:24.977 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102}
+25-07-07.08:56:25.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.08:56:25.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-07.08:56:30.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.08:56:30.015 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-07.08:56:31.006 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:56:31.014 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:56:31.028 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.08:56:31.028 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.08:56:31.046 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.08:56:31.067 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.08:56:31.067 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.08:56:31.067 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102}
+25-07-07.08:56:35.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.08:56:35.018 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-07.08:56:37.097 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:56:37.105 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.08:56:37.119 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.08:56:37.120 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.08:56:37.133 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.08:56:37.151 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.08:56:37.151 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.08:56:37.151 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102}
+25-07-07.08:56:40.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.08:56:42.162 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-07.08:56:42.167 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-07-07.09:22:18.824 [main            ] INFO  CenterFilterTest       - Starting CenterFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 59782 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-07.09:22:18.824 [main            ] INFO  CenterFilterTest       - The following 1 profile is active: "dev"
+25-07-07.09:22:19.236 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-07.09:22:19.238 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-07.09:22:19.252 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-07.09:22:19.876 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-07.09:22:19.889 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-07.09:22:19.995 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.09:22:20.036 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.09:22:20.791 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-07.09:22:20.825 [main            ] INFO  CenterFilterTest       - Started CenterFilterTest in 2.166 seconds (JVM running for 2.561)
+25-07-07.09:22:21.050 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-07.09:22:21.200 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-07.09:22:21.338 [main            ] INFO  CenterFilterTest       - 测试结果：true
+25-07-07.09:22:21.349 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.09:22:21.364 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.09:22:21.394 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-07.09:22:21.406 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-07-07.09:25:22.851 [main            ] INFO  IStrategtRepositoryTest - Starting IStrategtRepositoryTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 60041 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-07.09:25:22.852 [main            ] INFO  IStrategtRepositoryTest - The following 1 profile is active: "dev"
+25-07-07.09:25:23.276 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-07.09:25:23.278 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-07.09:25:23.292 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-07.09:25:23.924 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-07.09:25:23.939 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-07.09:25:24.052 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.09:25:24.093 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.09:25:24.832 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-07.09:25:24.864 [main            ] INFO  IStrategtRepositoryTest - Started IStrategtRepositoryTest in 2.184 seconds (JVM running for 2.566)
+25-07-07.09:25:25.026 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.09:25:25.080 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-07.09:25:25.228 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-07.09:25:25.309 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-07.09:25:25.312 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-07-07.10:19:49.592 [main            ] INFO  TestStragegyArmory     - Starting TestStragegyArmory using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 64236 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-07.10:19:49.592 [main            ] INFO  TestStragegyArmory     - The following 1 profile is active: "dev"
+25-07-07.10:19:50.011 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-07.10:19:50.013 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-07.10:19:50.027 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-07.10:19:50.677 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-07.10:19:50.690 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-07.10:19:50.795 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.10:19:50.840 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.10:19:51.534 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-07.10:19:51.563 [main            ] INFO  TestStragegyArmory     - Started TestStragegyArmory in 2.146 seconds (JVM running for 2.626)
+25-07-07.10:19:51.767 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-07.10:19:51.924 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-07.10:19:52.076 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-07.10:19:52.084 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-07-07.10:20:20.054 [main            ] INFO  CenterFilterTest       - Starting CenterFilterTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 64282 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-07.10:20:20.054 [main            ] INFO  CenterFilterTest       - The following 1 profile is active: "dev"
+25-07-07.10:20:20.463 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-07.10:20:20.466 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-07.10:20:20.486 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+25-07-07.10:20:21.131 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-07.10:20:21.141 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-07.10:20:21.256 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.10:20:21.299 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-07.10:20:22.010 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-07.10:20:22.040 [main            ] INFO  CenterFilterTest       - Started CenterFilterTest in 2.151 seconds (JVM running for 2.534)
+25-07-07.10:20:22.239 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-07-07.10:20:22.377 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-07-07.10:20:22.512 [main            ] INFO  CenterFilterTest       - 测试结果：true
+25-07-07.10:20:22.523 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:22.541 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:22.552 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-07.10:20:22.552 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-07.10:20:22.596 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-07.10:20:22.628 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-07.10:20:22.725 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:20:22.728 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101,"sort":1}
+25-07-07.10:20:25.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:20:28.755 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:28.764 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:28.781 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.10:20:28.781 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.10:20:28.835 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.10:20:28.854 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.10:20:28.872 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:20:28.872 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102,"sort":1}
+25-07-07.10:20:30.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:20:30.021 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-07.10:20:34.899 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:34.908 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:34.922 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.10:20:34.922 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.10:20:34.940 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.10:20:34.962 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.10:20:34.973 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:20:34.973 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102,"sort":1}
+25-07-07.10:20:35.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:20:35.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-07.10:20:40.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:20:40.012 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-07.10:20:40.998 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:41.004 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:41.016 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-07.10:20:41.016 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-07.10:20:41.030 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-07.10:20:41.051 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-07.10:20:41.058 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:20:41.058 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101,"sort":1}
+25-07-07.10:20:45.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:20:45.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-07.10:20:47.090 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:47.098 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:47.113 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-07.10:20:47.114 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-07.10:20:47.133 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-07.10:20:47.155 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-07.10:20:47.161 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:20:47.161 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101,"sort":1}
+25-07-07.10:20:50.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:20:53.191 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:53.200 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:53.214 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.10:20:53.215 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.10:20:53.231 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.10:20:53.252 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.10:20:53.261 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:20:53.262 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102,"sort":1}
+25-07-07.10:20:55.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:20:55.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-07.10:20:59.290 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:59.298 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:20:59.311 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.10:20:59.311 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.10:20:59.327 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.10:20:59.345 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.10:20:59.353 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:20:59.353 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102,"sort":1}
+25-07-07.10:21:00.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:21:00.026 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-07.10:21:05.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:21:05.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-07.10:21:05.371 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:21:05.379 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:21:05.391 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-07.10:21:05.391 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-07.10:21:05.403 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-07.10:21:05.420 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-07.10:21:05.426 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:21:05.426 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101,"sort":1}
+25-07-07.10:21:10.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:21:10.048 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-07.10:21:11.456 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:21:11.465 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:21:11.478 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=101
+25-07-07.10:21:11.478 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 101 rule_default
+25-07-07.10:21:11.499 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:101
+25-07-07.10:21:11.519 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 101 
+25-07-07.10:21:11.527 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:21:11.527 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":101,"sort":1}
+25-07-07.10:21:15.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:21:15.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+25-07-07.10:21:17.556 [main            ] INFO  BackListLogicChain     - 抽奖责任链—黑名单, userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:21:17.563 [main            ] INFO  BackListLogicChain     - 抽奖责任链：黑名单放行 userId=user005, strategyId=100006, ruleModel=rule_blacklist
+25-07-07.10:21:17.580 [main            ] INFO  DefaultLogChain        - 抽奖责任链—默认处理, userId=user005, strategyId=100006, ruleModel=rule_default, awardId=102
+25-07-07.10:21:17.581 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user005 100006 102 rule_default
+25-07-07.10:21:17.598 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤，库存过滤，userid:user005,strategyId:100006,awardId:102
+25-07-07.10:21:17.623 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user005 100006 102 
+25-07-07.10:21:17.630 [main            ] INFO  CenterFilterTest       - 请求参数 : {"strategyId":100006,"userId":"user005"}
+25-07-07.10:21:17.631 [main            ] INFO  CenterFilterTest       - 测试结果 : {"awardConfig":"","awardId":102,"sort":1}
+25-07-07.10:21:20.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-07.10:21:23.692 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-07-07.10:21:23.697 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
