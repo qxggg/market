@@ -48,5 +48,7 @@ public class RaffleActivityCount {
      */
     private Date updateTime;
 
+
+
 }
 

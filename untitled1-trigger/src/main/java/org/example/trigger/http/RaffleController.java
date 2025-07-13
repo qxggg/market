@@ -29,7 +29,7 @@ import java.util.List;
 @RestController
 @Slf4j
 @CrossOrigin("*")
-@RequestMapping("/api/${app.config.api-version}/raffle/")
+@RequestMapping("/api/${app.config.api-version}/rafmfle/")
 //
 public class RaffleController implements IRaffleService {
 

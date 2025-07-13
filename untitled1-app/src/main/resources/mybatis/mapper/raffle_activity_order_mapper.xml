@@ -13,12 +13,18 @@
         <result column="state" property="state"/>
         <result column="create_time" property="createTime"/>
         <result column="update_time" property="updateTime"/>
+        <result column="sku" property="sku"/>
+        <result column="total_count" property="totalCount"/>
+        <result column="day_count" property="dayCount"/>
+        <result column="month_count" property="monthCount"/>
     </resultMap>
 
+
     <insert id="insert" parameterType="org.example.infrastructure.persistent.po.RaffleActivityOrder">
-        insert into raffle_activity_order(user_id, activity_id, activity_name, strategy_id, order_id, order_time, state, create_time, update_time)
-        values(#{userId}, #{activityId}, #{activityName}, #{strategyId}, #{orderId}, #{orderTime}, #{state}, now(), now())
+        insert into raffle_activity_order(user_id, sku, activity_id, activity_name, strategy_id, order_id, order_time, total_count, day_count, month_count, state, create_time, update_time)
+        values(#{userId}, #{sku}, #{activityId}, #{activityName}, #{strategyId}, #{orderId}, #{orderTime}, #{totalCount}, #{dayCount}, #{monthCount}, #{state}, now(), now())
     </insert>
+
 
     <select id="queryRaffleActivityOrderByUserId" parameterType="java.lang.String" resultMap="dataMap">
         select user_id, activity_id, activity_name, strategy_id, order_id, order_time, state

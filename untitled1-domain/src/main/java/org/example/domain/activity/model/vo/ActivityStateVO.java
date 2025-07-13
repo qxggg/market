@@ -1,0 +1,12 @@
+package org.example.domain.activity.model.vo;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+public enum ActivityStateVO {
+    create("create", "创建");
+    private final String code;
+    private final String desc;
+}

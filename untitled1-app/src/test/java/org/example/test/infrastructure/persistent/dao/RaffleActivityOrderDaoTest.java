@@ -30,7 +30,10 @@ public class RaffleActivityOrderDaoTest {
         raffleActivityOrder.setOrderId(RandomStringUtils.randomNumeric(12));
         raffleActivityOrder.setOrderTime(new Date());
         raffleActivityOrder.setState("not_used");
-        // 插入数据
+        raffleActivityOrder.setSku(0L);
+        raffleActivityOrder.setDayCount(1);
+        raffleActivityOrder.setMonthCount(1);
+        raffleActivityOrder.setTotalCount(2);        // 插入数据
         raffleActivityOrderDao.insert(raffleActivityOrder);
     }
 

@@ -1,20 +1,20 @@
-package org.example.infrastructure.persistent.po;
+package org.example.domain.activity.model.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
-
-import java.util.Date;
+import lombok.NoArgsConstructor;
 
 /**
  * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 抽奖活动账户表 持久化对象
- * @create 2024-03-02 13:15
+ * @description 活动账户实体对象
+ * @create 2024-03-16 10:43
  */
 @Data
-public class RaffleActivityAccount {
-    /**
-     * 自增ID
-     */
-    private Long id;
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class ActivityAccountEntity {
 
     /**
      * 用户ID
@@ -55,16 +55,5 @@ public class RaffleActivityAccount {
      * 月次数-剩余
      */
     private Integer monthCountSurplus;
-
-    /**
-     * 创建时间
-     */
-    private Date createTime;
-
-    /**
-     * 更新时间
-     */
-    private Date updateTime;
-
 
 }
