@@ -21,8 +21,8 @@
 
 
     <insert id="insert" parameterType="org.example.infrastructure.persistent.po.RaffleActivityOrder">
-        insert into raffle_activity_order(user_id, sku, activity_id, activity_name, strategy_id, order_id, order_time, total_count, day_count, month_count, state, create_time, update_time)
-        values(#{userId}, #{sku}, #{activityId}, #{activityName}, #{strategyId}, #{orderId}, #{orderTime}, #{totalCount}, #{dayCount}, #{monthCount}, #{state}, now(), now())
+        insert into raffle_activity_order(user_id, sku, activity_id, activity_name, strategy_id, order_id, order_time, total_count, day_count, month_count, state, out_business_no, create_time, update_time)
+        values(#{userId}, #{sku}, #{activityId}, #{activityName}, #{strategyId}, #{orderId}, #{orderTime}, #{totalCount}, #{dayCount}, #{monthCount}, #{state}, #{outBusinessNo}, now(), now())
     </insert>
 
 

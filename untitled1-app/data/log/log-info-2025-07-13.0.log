@@ -1,0 +1,280 @@
+25-07-13.16:59:52.579 [main            ] INFO  RaffleActivityDaoTest  - Starting RaffleActivityDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 16488 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.16:59:52.580 [main            ] INFO  RaffleActivityDaoTest  - The following 1 profile is active: "dev"
+25-07-13.16:59:53.074 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.16:59:53.076 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.16:59:53.092 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.16:59:53.866 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.16:59:53.879 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.16:59:53.988 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.16:59:54.033 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.16:59:54.859 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.16:59:54.889 [main            ] INFO  RaffleActivityDaoTest  - Started RaffleActivityDaoTest in 2.564 seconds (JVM running for 3.122)
+25-07-13.16:59:55.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-13.16:59:55.023 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.16:59:55.051 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-13.16:59:55.268 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:00:01.827 [main            ] INFO  RaffleActivityDaoTest  - Starting RaffleActivityDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 16514 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:00:01.827 [main            ] INFO  RaffleActivityDaoTest  - The following 1 profile is active: "dev"
+25-07-13.17:00:02.252 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:00:02.253 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:00:02.266 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+25-07-13.17:00:02.985 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:00:02.996 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:00:03.083 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:03.123 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:03.951 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:00:03.981 [main            ] INFO  RaffleActivityDaoTest  - Started RaffleActivityDaoTest in 2.339 seconds (JVM running for 2.714)
+25-07-13.17:00:04.108 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:00:04.415 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:00:20.870 [main            ] INFO  RaffleActivityDaoTest  - Starting RaffleActivityDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 16559 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:00:20.870 [main            ] INFO  RaffleActivityDaoTest  - The following 1 profile is active: "dev"
+25-07-13.17:00:21.018 [main            ] INFO  RaffleActivityDaoTest  - Starting RaffleActivityDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 16562 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:00:21.019 [main            ] INFO  RaffleActivityDaoTest  - The following 1 profile is active: "dev"
+25-07-13.17:00:21.543 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:00:21.547 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:00:21.574 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+25-07-13.17:00:21.652 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:00:21.653 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:00:21.678 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+25-07-13.17:00:22.718 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:00:22.737 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:00:22.776 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:00:22.796 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:00:22.883 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:22.919 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:22.928 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:22.974 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:24.341 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:00:24.394 [main            ] INFO  RaffleActivityDaoTest  - Started RaffleActivityDaoTest in 3.633 seconds (JVM running for 4.143)
+25-07-13.17:00:24.591 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:00:24.683 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:00:24.748 [main            ] INFO  RaffleActivityDaoTest  - Started RaffleActivityDaoTest in 4.209 seconds (JVM running for 5.047)
+25-07-13.17:00:24.914 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:00:24.918 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:00:25.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-07-13.17:00:25.050 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:102
+25-07-13.17:00:25.171 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:00:45.429 [main            ] INFO  RaffleActivityOrderDaoTest - Starting RaffleActivityOrderDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 16607 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:00:45.429 [main            ] INFO  RaffleActivityOrderDaoTest - The following 1 profile is active: "dev"
+25-07-13.17:00:45.832 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:00:45.834 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:00:45.851 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.17:00:46.570 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:00:46.580 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:00:46.671 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:46.713 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:47.544 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:00:47.572 [main            ] INFO  RaffleActivityOrderDaoTest - Started RaffleActivityOrderDaoTest in 2.319 seconds (JVM running for 2.712)
+25-07-13.17:00:47.701 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:00:47.943 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:00:51.662 [main            ] INFO  RaffleActivityOrderDaoTest - Starting RaffleActivityOrderDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 16620 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:00:51.662 [main            ] INFO  RaffleActivityOrderDaoTest - The following 1 profile is active: "dev"
+25-07-13.17:00:52.080 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:00:52.081 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:00:52.101 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+25-07-13.17:00:52.837 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:00:52.849 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:00:52.935 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:52.974 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:00:53.811 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:00:53.846 [main            ] INFO  RaffleActivityOrderDaoTest - Started RaffleActivityOrderDaoTest in 2.341 seconds (JVM running for 2.731)
+25-07-13.17:00:54.002 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:00:54.296 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:03:24.633 [main            ] INFO  RaffleActivityOrderDaoTest - Starting RaffleActivityOrderDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 16844 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:03:24.633 [main            ] INFO  RaffleActivityOrderDaoTest - The following 1 profile is active: "dev"
+25-07-13.17:03:25.089 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:03:25.091 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:03:25.109 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.17:03:25.850 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:03:25.862 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:03:25.956 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:03:26.001 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:03:26.828 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:03:26.861 [main            ] INFO  RaffleActivityOrderDaoTest - Started RaffleActivityOrderDaoTest in 2.4 seconds (JVM running for 2.786)
+25-07-13.17:03:26.994 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:03:27.225 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:10:55.078 [main            ] INFO  RaffleActivityOrderDaoTest - Starting RaffleActivityOrderDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 17421 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:10:55.079 [main            ] INFO  RaffleActivityOrderDaoTest - The following 1 profile is active: "dev"
+25-07-13.17:10:55.534 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:10:55.536 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:10:55.556 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+25-07-13.17:10:56.336 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:10:56.353 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:10:56.449 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:10:56.489 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:10:57.325 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:10:57.360 [main            ] INFO  RaffleActivityOrderDaoTest - Started RaffleActivityOrderDaoTest in 2.466 seconds (JVM running for 2.932)
+25-07-13.17:10:57.506 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:10:57.732 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:20:58.642 [main            ] INFO  RaffleActivityOrderDaoTest - Starting RaffleActivityOrderDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 18208 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:20:58.643 [main            ] INFO  RaffleActivityOrderDaoTest - The following 1 profile is active: "dev"
+25-07-13.17:20:59.090 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:20:59.091 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:20:59.109 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.17:20:59.884 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:20:59.899 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:20:59.995 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:21:00.038 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:21:00.867 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:21:00.898 [main            ] INFO  RaffleActivityOrderDaoTest - Started RaffleActivityOrderDaoTest in 2.435 seconds (JVM running for 2.81)
+25-07-13.17:21:01.030 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:21:01.262 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:24:04.721 [main            ] INFO  RaffleActivityDaoTest  - Starting RaffleActivityDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 18452 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:24:04.722 [main            ] INFO  RaffleActivityDaoTest  - The following 1 profile is active: "dev"
+25-07-13.17:24:05.173 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:24:05.174 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:24:05.188 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.17:24:05.939 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:24:05.951 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:24:06.043 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:24:06.084 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:24:06.915 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:24:06.945 [main            ] INFO  RaffleActivityDaoTest  - Started RaffleActivityDaoTest in 2.396 seconds (JVM running for 2.778)
+25-07-13.17:24:07.073 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:24:07.311 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:29:04.873 [main            ] INFO  RaffleActivityDaoTest  - Starting RaffleActivityDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 18837 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:29:04.873 [main            ] INFO  RaffleActivityDaoTest  - The following 1 profile is active: "dev"
+25-07-13.17:29:05.352 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:29:05.354 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:29:05.367 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.17:29:06.135 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:29:06.147 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:29:06.244 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:29:06.285 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:29:07.099 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:29:07.128 [main            ] INFO  RaffleActivityDaoTest  - Started RaffleActivityDaoTest in 2.434 seconds (JVM running for 2.822)
+25-07-13.17:29:07.257 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:29:07.499 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.17:41:36.276 [main            ] INFO  RaffleActivityDaoTest  - Starting RaffleActivityDaoTest using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 19862 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.17:41:36.277 [main            ] INFO  RaffleActivityDaoTest  - The following 1 profile is active: "dev"
+25-07-13.17:41:36.724 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.17:41:36.725 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.17:41:36.740 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.17:41:37.500 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.17:41:37.512 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.17:41:37.610 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:41:37.652 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.17:41:38.506 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.17:41:38.539 [main            ] INFO  RaffleActivityDaoTest  - Started RaffleActivityDaoTest in 2.445 seconds (JVM running for 2.826)
+25-07-13.17:41:38.676 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.17:41:38.911 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.19:03:38.108 [main            ] INFO  TestActivityService    - Starting TestActivityService using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 26337 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.19:03:38.108 [main            ] INFO  TestActivityService    - The following 1 profile is active: "dev"
+25-07-13.19:03:38.562 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.19:03:38.564 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.19:03:38.578 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+25-07-13.19:03:39.361 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.19:03:39.374 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.19:03:39.467 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.19:03:39.508 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.19:03:40.331 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.19:03:40.361 [main            ] INFO  TestActivityService    - Started TestActivityService in 2.441 seconds (JVM running for 2.834)
+25-07-13.19:03:40.396 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58a9760d] to prepare test instance [org.example.test.domain.service.activity.TestActivityService@578b2dec]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.example.test.domain.service.activity.TestActivityService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.domain.activity.service.AbstractRaffleActivity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.domain.activity.service.AbstractRaffleActivity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 29 common frames omitted
+25-07-13.19:04:48.344 [main            ] INFO  TestActivityService    - Starting TestActivityService using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 26443 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.19:04:48.344 [main            ] INFO  TestActivityService    - The following 1 profile is active: "dev"
+25-07-13.19:04:48.801 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.19:04:48.802 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.19:04:48.817 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.19:04:49.595 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.19:04:49.607 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.19:04:49.720 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.19:04:49.767 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.19:04:50.645 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.19:04:50.677 [main            ] INFO  TestActivityService    - Started TestActivityService in 2.511 seconds (JVM running for 2.88)
+25-07-13.19:04:50.710 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71e9ddb4] to prepare test instance [org.example.test.domain.service.activity.TestActivityService@39afe59f]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.example.test.domain.service.activity.TestActivityService': Unsatisfied dependency expressed through field 'raffleActivity'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.domain.activity.service.AbstractRaffleActivity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.example.domain.activity.service.AbstractRaffleActivity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 32 common frames omitted
+25-07-13.19:08:21.403 [main            ] INFO  TestActivityService    - Starting TestActivityService using Java 1.8.0_452 on xingedeMacBook-Air.local with PID 26729 (started by xingeqi in /Users/xingeqi/Downloads/untitled1/untitled1-app)
+25-07-13.19:08:21.404 [main            ] INFO  TestActivityService    - The following 1 profile is active: "dev"
+25-07-13.19:08:21.848 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-07-13.19:08:21.850 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-07-13.19:08:21.865 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+25-07-13.19:08:22.615 [main            ] INFO  Version                - Redisson 3.24.3
+25-07-13.19:08:22.630 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+25-07-13.19:08:22.724 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.19:08:22.769 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 192.168.12.230/192.168.12.230:6399
+25-07-13.19:08:23.698 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-07-13.19:08:23.730 [main            ] INFO  TestActivityService    - Started TestActivityService in 2.493 seconds (JVM running for 2.863)
+25-07-13.19:08:23.862 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+25-07-13.19:08:24.107 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+25-07-13.19:08:24.265 [main            ] INFO  AbstractRaffleActivity - 查询结果：{"activityCountId":11101,"activityId":100301,"sku":9011,"stockCount":0,"stockCountSurplus":0} {"activityDesc":"测试活动","activityId":100301,"activityName":"测试活动","beginDateTime":1709979310000,"endDateTime":2025512110000,"state":"create","strategyId":100006} {"activityCountId":11101,"dayCount":1,"monthCount":1,"totalCount":1}

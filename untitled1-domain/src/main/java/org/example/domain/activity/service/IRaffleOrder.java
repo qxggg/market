@@ -1,10 +1,9 @@
 package org.example.domain.activity.service;
 
-import org.example.domain.activity.model.entity.ActivityCountEntity;
-import org.example.domain.activity.model.entity.ActivityOrderEntity;
-import org.example.domain.activity.model.entity.ActivityShopCartEntity;
-import org.example.domain.activity.model.entity.ActivitySkuEntity;
+import org.example.domain.activity.model.entity.*;
 
 public interface IRaffleOrder {
     ActivityOrderEntity createOrder(ActivityShopCartEntity activityShopCartEntity);
+
+    String createSkuRechargeOrder(SkuRechargeEntity skuRechargeEntity);
 }

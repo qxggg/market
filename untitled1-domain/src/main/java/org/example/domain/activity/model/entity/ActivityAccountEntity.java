@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ActivityAccountEntity {
 
+
     /**
      * 用户ID
      */
@@ -55,5 +56,6 @@ public class ActivityAccountEntity {
      * 月次数-剩余
      */
     private Integer monthCountSurplus;
+
 
 }

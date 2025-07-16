@@ -19,12 +19,31 @@ import org.example.domain.activity.model.entity.ActivityOrderEntity;
 public class CreateOrderAggregate {
 
     /**
-     * 活动账户实体
+     * 用户ID
      */
-    private ActivityAccountEntity activityAccountEntity;
+    private String userId;
+
     /**
-     * 活动订单实体
+     * 活动ID
      */
+    private Long activityId;
+
+    /**
+     * 总次数
+     */
+    private Integer totalCount;
+
+    /**
+     * 日次数
+     */
+    private Integer dayCount;
+
+    /**
+     * 月次数
+     */
+    private Integer monthCount;
+
+
     private ActivityOrderEntity activityOrderEntity;
 
 }
