@@ -1,13 +1,13 @@
-package org.example.domain.activity.service.rule.impl;
+package org.example.domain.activity.service.quota.rule.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import org.example.domain.activity.model.entity.ActivityCountEntity;
 import org.example.domain.activity.model.entity.ActivityEntity;
 import org.example.domain.activity.model.entity.ActivitySkuEntity;
-import org.example.domain.activity.model.entity.ActivitySkuStockVO;
+import org.example.domain.activity.model.vo.ActivitySkuStockVO;
 import org.example.domain.activity.repository.IActivityRepository;
 import org.example.domain.activity.service.armory.IActivityDispatch;
-import org.example.domain.activity.service.rule.AbstractActionChain;
+import org.example.domain.activity.service.quota.rule.AbstractActionChain;
 import org.example.types.enums.ResponseCode;
 import org.example.types.exception.AppException;
 import org.springframework.stereotype.Component;

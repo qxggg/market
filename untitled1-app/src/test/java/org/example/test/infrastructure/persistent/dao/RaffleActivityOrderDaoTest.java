@@ -2,7 +2,11 @@ package org.example.test.infrastructure.persistent.dao;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.RandomStringUtils;
+import org.example.infrastructure.persistent.dao.IRaffleActivityAccountDayDao;
+import org.example.infrastructure.persistent.dao.IRaffleActivityAccountMonthDao;
 import org.example.infrastructure.persistent.dao.IRaffleActivityOrderDao;
+import org.example.infrastructure.persistent.po.RaffleActivityAccount;
+import org.example.infrastructure.persistent.po.RaffleActivityAccountDay;
 import org.example.infrastructure.persistent.po.RaffleActivityOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,6 +23,9 @@ public class RaffleActivityOrderDaoTest {
 
     @Resource
     private IRaffleActivityOrderDao raffleActivityOrderDao;
+
+    @Resource
+    private IRaffleActivityAccountDayDao raffleActivityAccountDayDao;
 
     @Test
     public void test_insert(){
@@ -39,6 +46,12 @@ public class RaffleActivityOrderDaoTest {
 
     @Test
     public void query(){
-        System.out.println(raffleActivityOrderDao.queryRaffleActivityOrderByUserId("xiaofuge"));
+        RaffleActivityAccountDay raffleActivityAccount = new RaffleActivityAccountDay();
+        raffleActivityAccount.setActivityId(901L);
+        raffleActivityAccount.setDayCount(32);
+        raffleActivityAccount.setUserId("123");
+        raffleActivityAccount.setDay("3");
+
+        System.out.println(raffleActivityAccountDayDao.queryActivityAccountDayByUserId(raffleActivityAccount));
     }
 }

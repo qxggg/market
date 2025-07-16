@@ -1,7 +1,7 @@
 package org.example.trigger.job;
 
 import lombok.extern.slf4j.Slf4j;
-import org.example.domain.activity.model.entity.ActivitySkuStockVO;
+import org.example.domain.activity.model.vo.ActivitySkuStockVO;
 import org.example.domain.activity.service.ISkuStock;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

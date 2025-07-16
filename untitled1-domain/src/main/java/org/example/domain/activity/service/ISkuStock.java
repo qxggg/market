@@ -1,6 +1,6 @@
 package org.example.domain.activity.service;
 
-import org.example.domain.activity.model.entity.ActivitySkuStockVO;
+import org.example.domain.activity.model.vo.ActivitySkuStockVO;
 
 public interface ISkuStock {
 

@@ -1,4 +1,4 @@
-package org.example.domain.activity.service;
+package org.example.domain.activity.service.quota;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
@@ -6,15 +6,14 @@ import org.apache.commons.lang3.StringUtils;
 import org.example.domain.activity.model.aggregate.CreateOrderAggregate;
 import org.example.domain.activity.model.entity.*;
 import org.example.domain.activity.repository.IActivityRepository;
-import org.example.domain.activity.service.rule.IActionChain;
-import org.example.domain.activity.service.rule.factory.DefaultActivityChainFactory;
+import org.example.domain.activity.service.IRaffleOrder;
+import org.example.domain.activity.service.quota.rule.IActionChain;
+import org.example.domain.activity.service.quota.rule.factory.DefaultActivityChainFactory;
 import org.example.types.enums.ResponseCode;
 import org.example.types.exception.AppException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 @Slf4j
-public abstract class AbstractRaffleActivity extends RaffleActivitySupport implements IRaffleOrder{
+public abstract class AbstractRaffleActivity extends RaffleActivitySupport implements IRaffleOrder {
     protected IActivityRepository activityRepository;
 
     public AbstractRaffleActivity(DefaultActivityChainFactory defaultActivityChainFactory, IActivityRepository activityRepository) {

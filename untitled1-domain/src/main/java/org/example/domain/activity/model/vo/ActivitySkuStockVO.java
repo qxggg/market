@@ -1,4 +1,4 @@
-package org.example.domain.activity.model.entity;
+package org.example.domain.activity.model.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

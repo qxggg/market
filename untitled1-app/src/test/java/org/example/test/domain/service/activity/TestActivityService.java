@@ -2,20 +2,20 @@ package org.example.test.domain.service.activity;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.example.domain.activity.model.aggregate.CreatePartakeOrderAggregate;
 import org.example.domain.activity.model.entity.ActivityShopCartEntity;
+import org.example.domain.activity.model.entity.PartakeRaffleActivityEntity;
 import org.example.domain.activity.model.entity.SkuRechargeEntity;
-import org.example.domain.activity.repository.IActivityRepository;
-import org.example.domain.activity.service.AbstractRaffleActivity;
-import org.example.domain.activity.service.RaffleActivityService;
+import org.example.domain.activity.service.partake.RaffleActivityPartakeService;
+import org.example.domain.activity.service.quota.RaffleActivityService;
 import org.example.domain.activity.service.armory.IActivityArmory;
-import org.example.domain.activity.service.armory.IActivityDispatch;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.annotation.Resource;
+import java.util.Date;
 
 @SpringBootTest
 @Slf4j
@@ -23,6 +23,8 @@ import javax.annotation.Resource;
 public class TestActivityService {
     @Autowired
     RaffleActivityService raffleActivity;
+    @Autowired
+    RaffleActivityPartakeService  raffleActivityPartake;
     @Autowired
     IActivityArmory activityArmory;
     @Test
@@ -47,5 +49,13 @@ public class TestActivityService {
             skuRechargeEntity.setUserId("user001");
             raffleActivity.createSkuRechargeOrder(skuRechargeEntity);
         }
+    }
+
+    @Test
+    public void testCreateRaffleUserOrder(){
+        raffleActivityPartake.createOrder(PartakeRaffleActivityEntity.builder()
+                        .activityId(100301L)
+                        .userId("xiaofuge")
+                .build());
     }
 }

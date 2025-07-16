@@ -1,7 +1,5 @@
 package org.example.domain.activity.service.armory;
 
-import org.example.domain.activity.model.entity.ActivitySkuStockVO;
-
 import java.util.Date;
 
 public interface IActivityDispatch {

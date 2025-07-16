@@ -1,6 +1,6 @@
 package org.example.infrastructure.persistent.po;
 
-import lombok.Data;
+import lombok.*;
 
 import java.util.Date;
 
@@ -10,6 +10,10 @@ import java.util.Date;
  * @create 2024-03-02 13:15
  */
 @Data
+@Builder
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
 public class RaffleActivityAccount {
     /**
      * 自增ID
